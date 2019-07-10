@@ -47,13 +47,13 @@
                         <ul>
                             <li>
                                 <a href="/">
-                                    <div class="logo"><img src="img/logo-01.svg" alt="" class="img-responsive"></div>
+                                    <div class="logo"><img src="img/logo.png" alt="" class="img-responsive"></div>
                                 </a>
                             </li>
-                            <li class="hidden-xs">
+                            <!-- <li class="hidden-xs">
                                 <div class="zag">ОФИЦИАЛЬНЫЕ ПАРТНЕРЫ ЕВРОПЕЙСКИХ ЗАВОДОВ
                                     <br>ПО ПРОИЗВОДСТВУ ЗАПЧАСТЕЙ ДЛЯ ИНОМАРОК</div>
-                            </li>
+                            </li> -->
                             <li class="text-right"  style="margin-top: 0px;margin-bottom: 0px;">
                                 <div class="phone" style="margin-top: 5px;margin-bottom: 5px;">
                                 	<a style="margin-top: 5px;margin-bottom: 5px;" href="tel: +74951201819" onclick="yaCounter44829490.reachGoal('call')"><i class="fa fa-phone"></i>  +7 (495) 120-18-19<br><span style="font-size: 1.4rem;"> </span></a>
@@ -359,11 +359,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="politics"><a href="https://vk.com/shrusprivod" target="_blank"><i class="fa fa-vk"></i><span>Мы в Вконтакте</span></a></div>
+                    <div class="politics">
+
+                        <div class="soc"><span>Мы в социальных сетях:</span><a href="https://vk.com/zapchasti_inomarka_rassrochka" target="_blank"><i class="fa fa-vk"></i></a>
+                      <a href="https://www.ok.ru/group/53679549317249" target="_blank"><i class="fa fa-odnoklassniki"></i></a>  
+                    </div>
+
+                    </div>
                 </div>
-                <div class="col-sm-4 col-sm-offset-4">
-                    <div class="text-right"><a href="http://sulagaev-agency.ru/?shrusquiz" target="_blank">Сайт сделан в <span>Sulagaev Agency</span></a></div>
-                </div>
+                
             </div>
         </div>
     </footer>
@@ -378,7 +382,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <form id="frm2" method="post" action="http://shrusprivod.ru/quiz/php/submit.php" class="contactform1">
+                    <form id="frm2" method="post" action="submit.php" class="contactform1">
                         <input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]">
                         <input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]">
                         <input id="hideinp" type="text" name="action" hidden="" value="«Клиент не уверен, какой ШРУС требуется заменить»">
@@ -416,56 +420,7 @@
         $(val).text($(val).closest('form').find('button, input[type="submit"]').text());
     });
     </script>
-    <!-- Yandex.Metrika counter-->
-    <script type="text/javascript">
-    (function(d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter44976685 = new Ya.Metrika({
-                    id: 44976685,
-                    clickmap: true,
-                    trackLinks: true,
-                    accurateTrackBounce: true,
-                    webvisor: true
-                });
-            } catch (e) {}
-        });
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function() {
-                n.parentNode.insertBefore(s, n);
-            };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else {
-            f();
-        }
-    })(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/44976685" style="position:absolute; left:-9999px;" alt=""></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter-->
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-100984030-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-    <div class="mango-callback" data-settings='{"type":"", "id": "MTAwMDU5NDM=","autoDial" : "0", "lang" : "ru-ru", "host":"widgets.mango-office.ru/", "errorMessage": "В данный момент наблюдаются технические проблемы и совершение звонка невозможно"}'>
-    </div>
+
     <script>
     ! function(t) {
         function e() { i = document.querySelectorAll(".button-widget-open"); for (var e = 0; e < i.length; e++) "true" != i[e].getAttribute("init") && (options = JSON.parse(i[e].closest('.' + t).getAttribute("data-settings")), i[e].setAttribute("onclick", "alert('" + options.errorMessage + "(0000)'); return false;")) }

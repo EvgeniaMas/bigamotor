@@ -10989,7 +10989,7 @@ p {
     position: relative;
     max-width: 1200px;
     background-color: #fff;
-    border: 10px solid #dfb887;
+    border: 10px solid #a5342e;
     border-radius: 10px;
     color: #fff
 }
@@ -11055,7 +11055,7 @@ p {
     max-width: 600px;
     background-color: #fff;
     border-radius: 0;
-    border: 10px solid #dfb887;
+    border: 10px solid #a5342e;
     color: #fff
 }
 
@@ -11255,7 +11255,7 @@ p {
     position: relative;
     color: #000;
     font-size: 1.6rem;
-    border: 3px solid #dfb887;
+    border: 3px solid #d14a43;
     border-radius: 10px;
     font-family: 'PT Serif Caption', serif;
     background-color: transparent;
@@ -11273,7 +11273,7 @@ p {
 .popup7 button:hover,
 .popup8 button:hover,
 .popupz button:hover {
-    background-color: #dfb887;
+    background-color: #a5342e;
     color: #fff;
     -webkit-transition: .3s;
     transition: .3s
@@ -11565,7 +11565,7 @@ textarea:focus {
 }
 
 .bg1 .content button .dots span {
-    background-color: #dfb887;
+    background-color: #a5342e;
     height: 5px;
     display: inline-block;
     vertical-align: top;
@@ -11626,12 +11626,21 @@ h2 {
     color: #c0cade
 }
 
-.bg3 .gif1 {
+/*.bg3 .gif1 {
     margin-top: -50px;
     width: 700px;
     max-width: 700px;
     margin-left: -100px
+}*/
+
+.bg3 .gif1 {
+    margin-top: -50px;
+    width: 450px;
+    max-width: 450px;
+   /* margin-left: -100px*/
 }
+
+
 
 .bg3 button {
     margin-top: 35px;
@@ -11829,7 +11838,7 @@ footer h2 span {
 .bg5 .cont2 .line,
 .bg5 .cont2 .line2 {
     width: 570px;
-    background-color: #dfb887;
+    background-color: #a5342e;
     height: 1px
 }
 
@@ -11887,7 +11896,7 @@ footer h2 span {
 
 .bg6 .form form input {
     border-radius: 5px;
-    border: 2px solid #dfb887;
+    border: 2px solid #a5342e;
     background-color: transparent;
     font-weight: 300;
     -webkit-transition: .3s;
@@ -11915,8 +11924,8 @@ footer h2 span {
 
 .bg6 .form form button {
     border-radius: 5px;
-    border: 2px solid #dfb887;
-    color: #dfb887;
+    border: 2px solid #d14a43;
+    color: #fff;
     background-color: rgba(0, 0, 0, .4);
     font-weight: 600;
     -webkit-transition: .3s;
@@ -11935,7 +11944,7 @@ footer h2 span {
 }
 
 .bg6 .form form button:hover {
-    background-color: #dfb887;
+    background-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s;
     color: #fff
@@ -12159,7 +12168,7 @@ footer h2 span {
     display: inline-block;
     text-transform: uppercase;
     padding: 3px 20px;
-    background-color: #dfb887;
+    background-color: #a5342e;
     text-align: center;
     margin-left: 20px;
     top: 17px
@@ -12270,7 +12279,7 @@ footer .copy span {
 
 .bg9 form input {
     border-radius: 5px;
-    border: 2px solid #dfb887;
+    border: 2px solid #a5342e;
     background-color: transparent;
     font-weight: 300;
     transition: .3s;
@@ -12296,11 +12305,11 @@ footer .copy span {
 
 .bg9 form button {
     border-radius: 5px;
-    border: 2px solid #dfb887;
+    border: 2px solid #a5342e;
     color: #fff;
     font-weight: 600;
     transition: .3s;
-    background-color: #dfb887
+    background-color: #a5342e
 }
 
 .bg9 form button img {
@@ -12354,7 +12363,7 @@ footer .copy a:hover,
 footer .how,
 footer .soc i,
 footer a:hover {
-    color: #dfb887
+    color: #a5342e
 }
 
 footer h3 {
@@ -13138,13 +13147,13 @@ input[hidden] {
 }
 
 .pop1 span {
-    color: #dfb887;
+    color: #a5342e;
     text-decoration: underline;
 }
 
 .pop1 i {
     margin-left: 10px;
-    color: #dfb887;
+    color: #a5342e;
     position: relative;
     top: 2px;
 }
