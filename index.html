@@ -337,7 +337,7 @@
                          <li>Иные и сопутствующие товары</li> 
                        
                     </ul>
-                    <a href="quiz/quiz.html" target="_blank">
+                    <a href="#" class="backcall">
                         <button>Заказать звонок
                             <!-- <img src="img/arrow.png" alt="" class="blueimg"> -->
                         </button>
@@ -675,7 +675,7 @@
                 <div class="col-md-4 col-sm-5"><img src="img/iphone.png" alt="Консультации Вконтакте" class="img-responsive"></div>
                 <div class="col-md-8 col-sm-7">
                     <h2><b>Остались вопросы?</b></h2>
-                    <div class="desc">Звоните по телефонам <a href="tel:884826172879">+7(8482) 617-28-79</a>, <a href="tel:89278917287">+7(9278)91-72-87</a> или пишите на <a href="mailto:tlt@bigamotor.ru">tlt@bigamotor.ru</a> (ответим в тот же день).</a></div>
+                    <div class="desc">Звоните по телефонам <a href="tel:884826172879">+7(8482) 617-28-79</a>, <a href="tel:89278917287">+7(927)891-72-87</a> или пишите на <a href="mailto:tlt@bigamotor.ru">tlt@bigamotor.ru</a> (ответим в тот же день).</a></div>
                     <div class="form">
                         <form id="frm2" method="post" action="php/submit.php" class="contactform1">
                             <input type="text" name="name" placeholder="Ваше имя:" class="validate[required]" class="form-control frstclass" style="margin-bottom: 10px;">
@@ -791,7 +791,7 @@
                 <div class="col-sm-6">
                     <div class="time"><span>Время работы: </span>с 9:00 до 19:00 Пн - Пт</div>
                     <div class="phone"><span>Телефон: </span><a href="tel:884826172879">+7(8482) 617-28-79</a>,
-                    <a href="tel:89278917287">+7(9278)91-72-87</a> </div>
+                    <a class="mobile_number" href="tel:89278917287">+7(927)891-72-87</a> </div>
                     <div class="email"><span>E-mail: </span><a href="mailto:tlt@bigamotor.ru">tlt@bigamotor.ru</a>
                         <br>(сотрудничество, коммерческие предложения, реклама).</div>
                     <div class="address"><span>Адрес офиса: </span> г. Тольятти, ул. Юбилейная, д. 81А</div>
@@ -811,7 +811,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="desc">
-                        <p><b>Всегда гарантированная скидка при 100% предоплате &nbsp;</b></p>
+                        <p class="guranteed_discount"><b>Всегда гарантированная скидка при 100% предоплате &nbsp;</b></p>
                     </div> <!-- desc -->
                 </div><!-- 12 column -->
             </div><!-- row -->
@@ -848,7 +848,30 @@
                 </div>
             </div>
         </div>
-        <div class="popup2" style="max-width: 800px;">
+
+
+          <div class="popup2">
+            <div class="box-modal_close arcticmodal-close close"><span>Закрыть</span></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="zag">Оставьте заявку на обратный звонок<span></span></div>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form id="frm2" method="post" action="php/submit.php" class="contactform1">
+                        <input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]">
+                        <input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]">
+                        <input hidden="" type="text" name="action" value="«Обратный звонок»">
+                        <button>Оставить заявку</button>
+                        <div id="confidential" class="minconf">Нажимая на кнопку «<span class="textbtn"></span>», я даю <a href="politics.pdf">согласие на обработку персональных данных.</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+  <!--       <div class="popup2" style="max-width: 800px;">
             <div class="box-modal_close arcticmodal-close close"><span>Закрыть</span></div>
             <div class="row">
                 <div class="col-xs-12">
@@ -870,7 +893,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="popup3">
             <div class="box-modal_close arcticmodal-close close"><span>Закрыть</span></div>
             <div class="row">
