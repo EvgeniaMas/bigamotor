@@ -10931,6 +10931,12 @@ body[dir=rtl] .formError .formErrorArrow {
     font-weight: 600
 }
 
+
+
+
+
+
+
 html {
     font-size: 62.5%!important
 }
@@ -11368,13 +11374,13 @@ textarea:focus {
 }
 
 .bg1 header {
-    height: 75px;
+    height: 90px;
     font-weight: 400;
     position: absolute;
     right: 0;
     left: 0;
     border: none;
-    background-color: rgba(255,255,255,0.3);
+    background-color: #fff;
 }
 
 .bg1 header img {
@@ -11413,12 +11419,41 @@ textarea:focus {
 }
 
 .bg1 header nav ul li a {
-    color: #c0cade
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3ms ease;
 }
+
+
+.bg1 header nav ul li a:hover,
+.bg1 header nav ul li a:focus
+ {
+opacity: 0.6;
+text-decoration: none;
+}
+
+
+
+
+.main_product{
+    display: block;
+    max-width: 50rem;
+    width: 100%;
+    margin:auto;
+    margin-top: 7rem;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: -5px 5px 30px 0 rgba(0, 0, 0, .1);
+    border-radius: 1rem;
+    border: 2px solid #fff;
+}
+
+
 
 .bg1 header nav ul li:after {
     content: '|';
-    color: #c0cade;
+    color: #000;
     margin-left: 15px
 }
 
@@ -11441,8 +11476,8 @@ textarea:focus {
 }
 
 .bg1 header .phone a {
-    color: #fff;
-    font-size: 1.6rem
+    color: #000;
+    font-size: 1.6rem;
 }
 
 .bg1 header .phone a i {
@@ -11493,18 +11528,13 @@ textarea:focus {
 
 .bg1 .content .desc {
     font-size: 2rem;
-    color: #fff
+    color: #fff;
+    line-height: 3rem;
 }
 
 .bg1 .content .desc span {
     border-bottom: 1px solid #fff
 }
-
-
-
-
-
-
 
 
 
@@ -11593,8 +11623,20 @@ h2 {
     background-image: url(../img/bg2.png);
     padding-top: 70px;
     padding-bottom: 70px;
-    height: 490px
+   /* height: 490px;*/
+    padding-bottom: 10rem;
+    margin-top: 10px;
 }
+
+.bg3_half {
+    background-image: url(../img/bg_half.jpg);
+    padding-top: 70px;
+    padding-bottom: 70px;
+   /* height: 490px;*/
+    padding-bottom: 10rem;
+    margin-top: 10px;
+}
+
 
 .bg3 h2 {
     color: #fff;
@@ -11838,8 +11880,8 @@ footer h2 span {
 .bg5 .cont2 .line,
 .bg5 .cont2 .line2 {
     width: 570px;
-    background-color: #a5342e;
-    height: 1px
+    background-color: #fff;
+    height: 2px;
 }
 
 .bg5 .cont2 .line {
@@ -11902,24 +11944,24 @@ footer h2 span {
     -webkit-transition: .3s;
     transition: .3s;
     max-width: 240px;
-    background-color: rgba(0, 0, 0, .4);
-    color: #fff
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
 }
 
 .bg6 .form form::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, .9)
+    color: rgba(255, 255, 255, .98)
 }
 
 .bg6 .form form::-moz-placeholder {
-    color: rgba(255, 255, 255, .9)
+    color: rgba(255, 255, 255, .98)
 }
 
 .bg6 .form form:-moz-placeholder {
-    color: rgba(255, 255, 255, .9)
+    color: rgba(255, 255, 255, .98)
 }
 
 .bg6 .form form:-ms-input-placeholder {
-    color: rgba(255, 255, 255, .9)
+    color: rgba(255, 255, 255, .98)
 }
 
 .bg6 .form form button {
@@ -12314,11 +12356,11 @@ footer .copy span {
 
 .bg9 form button {
     border-radius: 5px;
-    border: 2px solid #a5342e;
+    border: 2px solid #d14a43;
     color: #fff;
     font-weight: 600;
     transition: .3s;
-    background-color: #a5342e
+    background-color: #d14a43;
 }
 
 .bg9 form button img {
@@ -12329,7 +12371,7 @@ footer .copy span {
 
 .bg9 form button:hover {
     background-color: #b68f5f;
-    border-color: #b68f5f;
+    border-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s;
     color: #fff
@@ -12365,15 +12407,25 @@ footer h2 span {
 }
 
 footer a {
-    color: #fff
+    color: #fff;
+    transition: all .3ms ease;
+    text-decoration: none;
 }
 
 footer .copy a:hover,
 footer .how,
 footer .soc i,
 footer a:hover {
-    color: #a5342e
+  
+    text-decoration: none;
+    color: #fff;
 }
+
+footer a:hover{
+  opacity: 0.8;    
+}
+
+
 
 footer h3 {
     font-size: 2.2rem;
@@ -12802,7 +12854,9 @@ footer .about span {
         display: none
     }
     .bg1 header .logo {
-        height: 55px
+        /*height: 55px*/
+        max-width: 90px;
+        height: auto;
     }
     .bg3,
     .bg5 {
@@ -12848,6 +12902,11 @@ footer .about span {
     .bg1 .content .desc {
         font-size: 1.6rem
     }
+
+    .bg3_half {
+    background-image: url(../img/bg2.png);
+}
+
     .bg3 .gif1 {
         margin-left: -260px
     }
@@ -13178,7 +13237,10 @@ input[hidden] {
 .fa.fa-vk{
     color: #fff!important;
     background-color: #48739e;
-    padding: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    margin-left: 1rem;
     border-radius: 3px;
     transition: all .3ms ease-out;
     cursor: pointer;
@@ -13189,10 +13251,12 @@ input[hidden] {
 .fa.fa-odnoklassniki{
     color: #fff!important;
     background-color: #fa932e;
-    padding: 8px;
+    padding: 8px 14px;
     border-radius: 3px;
     transition: all .3ms ease-out;
     cursor: pointer;
+      border-radius: 6px;
+    border: 1px solid #fff;
 }
 
 .fa.fa-vk:hover,

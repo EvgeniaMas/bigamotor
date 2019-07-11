@@ -11451,7 +11451,7 @@ body header nav ul {
 }
 
 body header nav ul li:first-child {
-    border-right: 1px solid #e9e9e9;
+   
     padding-right: 50px
 }
 
@@ -11600,7 +11600,7 @@ body .content button {
     margin-top: 45px;
     border-radius: 5px;
     border: 2px solid #a5342e;
-    color: #a5342e;
+    color: #fff;
     height: 45px;
     padding-left: 15px;
     padding-right: 15px;
@@ -11871,6 +11871,7 @@ body .content .nextblock .border2 .descer {
 
 body .content .nextblock .border2 button {
     margin-top: 0;
+    color:#fff;
     width: 100%!important;
     min-width: 100%
 }
@@ -12638,4 +12639,35 @@ input[name=action] {
 .popup3 .minconf,
 .popup3 .minconf a {
     color: #000
+}
+
+
+.fa.fa-vk{
+    color: #fff!important;
+    background-color: #48739e;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    margin-left: 1rem;
+    border-radius: 3px;
+    transition: all .3ms ease-out;
+    cursor: pointer;
+}
+
+
+
+.fa.fa-odnoklassniki{
+    color: #fff!important;
+    background-color: #fa932e;
+    padding: 8px 14px;
+    border-radius: 3px;
+    transition: all .3ms ease-out;
+    cursor: pointer;
+      border-radius: 6px;
+    border: 1px solid #fff;
+}
+
+.fa.fa-vk:hover,
+.fa.fa-odnoklassniki:hover{
+    opacity: 0.8;
 }

@@ -58,7 +58,7 @@ padding-bottom: 30px;
   position: relative;
   width: 90%;
   max-width: 768px;
-  background-color: rgba(51,51,51, 0.5);
+  background-color: rgba(51,51,51, 0.9);
   border: 2px solid #fff;
   border-radius: 16px;
   margin: 2em auto;
@@ -134,7 +134,12 @@ padding-bottom: 30px;
     font-size: 26px;
     font-size: 1.625rem;
     line-height: 1.6;
+    font-style: italic;
   }
+
+
+
+
 }
 
 .cd-author img, .cd-author .cd-author-info {
@@ -354,10 +359,10 @@ padding-bottom: 30px;
   border: 8px solid transparent;
   border-top-color: #79b6e4;
 }
-.cd-testimonials-all .cd-author {
+/*.cd-testimonials-all .cd-author {
   text-align: left;
   margin-left: 1.5em;
-}
+}*/
 .cd-testimonials-all .cd-author img {
   box-shadow: 0 0 0 transparent;
 }
@@ -429,3 +434,13 @@ padding-bottom: 30px;
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+  ul.cd-author-info>li{
+        font-size: 26px!important;
+    font-size: 1.625rem!important;
+    line-height: 1.6!important;
+   
+  }
+
+
+
+
