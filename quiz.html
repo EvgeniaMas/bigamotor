@@ -104,42 +104,42 @@
                                 <h3>Какая деталь Вам необходима?</h3></div>
                             <div class="answers">
                                 <label>
-                                    <div data-s="ШРУС наружный" data-f1="30" class="div">
+                                    <div data-s="Топливный насос высокого давления" data-f1="30" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">ШРУС наружный</div>
+                                        <div class="text">Топливный насос высокого давления</div>
                                     </div>
                                 </label>
                                 <label>
-                                    <div data-s="ШРУС внутренний(правая сторона)" data-f1="50" class="div">
+                                    <div data-s="топливные форсунки" data-f1="50" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">ШРУС внутренний (правый)</div>
+                                        <div class="text">топливные форсунки</div>
                                     </div>
                                 </label>
                                 <label>
-                                    <div data-s="ШРУС внутренний(левая сторона)" data-f1="50" class="div">
+                                    <div data-s="топливопровод высокого давления" data-f1="50" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">ШРУС внутренний (левый)</div>
+                                        <div class="text">топливопровод высокого давления</div>
                                     </div>
                                 </label>
                                 <label>
-                                    <div data-s="Приводной вал в сборе(правая сторона)" data-f1="70" class="div">
+                                    <div data-s="топливоподкачивающий насос" data-f1="70" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">Приводной вал в сборе (правый)</div>
+                                        <div class="text">топливоподкачивающий насос</div>
                                     </div>
                                 </label>
                                 <label>
-                                    <div data-s="Приводной вал в сборе(левая сторона)" data-f1="70" class="div">
+                                    <div data-s="топливный фильтр" data-f1="70" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">Приводной вал в сборе (левый)</div>
+                                        <div class="text">топливный фильтр</div>
                                     </div>
                                 </label>
                                 <label>
-                                    <div data-s=" Полуось (правая сторона)" data-f1="90" class="div">
+                                    <div data-s=" ремкомплект" data-f1="90" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">Полуось (правая)</div>
+                                        <div class="text">ремкомплект</div>
                                     </div>
                                 </label>
-                                <label>
+                               <!--  <label>
                                     <div data-s=" Полуось (левая сторона)" data-f1="90" class="div">
                                         <div class="checkin"></div>
                                         <div class="text">Полуось (левая)</div>
@@ -162,7 +162,7 @@
                                         <div class="checkin"></div>
                                         <div class="text">Трипоид</div>
                                     </div>
-                                </label>
+                                </label> -->
                             </div>
                             <div class="text-center">
                                 <p class="callbacks">Не уверен, что именно необходимо заменить</p>
@@ -320,7 +320,7 @@
                                             <div>Оставьте свой телефон, мы закрепим персональную скидку за Вашим номером,
                                                 <br>а также вышлем подобранный перечень деталей.</div>
                                         </div>
-                                        <form id="frm2" method="post" action="http://shrusprivod.ru/quiz/php/submit.php" class="contactform_q" accept-charset="utf-8">
+                                        <form id="frm2" method="post" action="submit.php" class="contactform_q" accept-charset="utf-8">
                                             <input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]">
                                             <input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]">
                                             <input type="text" name="city" placeholder="Введите Ваш город:" class="form-control city validate[required]">
@@ -406,21 +406,22 @@
                 <div class="col-xs-12">
                     <div class="zag">Спасибо за обращение в нашу компанию.
                         <br class="hidden-xs">С Вами свяжутся в ближайшие время.</div>
-                    <div class="desc">Во время ожидания звонка Вы можете ознакомиться с нашей группой Вконтакте.</div>
-                    <div class="soc"><a href="https://vk.com/shrusprivod" target="_blank"><i class="fa fa-vk"></i></a></div>
+                    <div class="desc">Во время ожидания звонка Вы можете ознакомиться с нашими группами Вконтакте и в Одноклассниках.</div>
+                    <div class="soc"><a href="https://vk.com/zapchasti_inomarka_rassrochka" target="_blank"><i class="fa fa-vk"></i></a>
+                      <a href="https://www.ok.ru/group/53679549317249" target="_blank"><i class="fa fa-odnoklassniki"></i></a>  </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="js/qu_main.js"></script>
     <script src="js/qu_script.js"></script>
-<!--     <script>
+    <script>
     $.each($('.minconf span.textbtn'), function(index, val) {
         $(val).text($(val).closest('form').find('button, input[type="submit"]').text());
     });
     </script>
 
-    <script>
+    <!-- <script>
     ! function(t) {
         function e() { i = document.querySelectorAll(".button-widget-open"); for (var e = 0; e < i.length; e++) "true" != i[e].getAttribute("init") && (options = JSON.parse(i[e].closest('.' + t).getAttribute("data-settings")), i[e].setAttribute("onclick", "alert('" + options.errorMessage + "(0000)'); return false;")) }
 
