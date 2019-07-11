@@ -78,7 +78,7 @@ $(function(){
 	    $($imgs.css('position', 'absolute').hide().get($('.abc71:hidden').eq(Math.floor(Math.random() * $('.abc71:hidden').length))-1)).show();
 
 
-	    window.setInterval(swapImages, 8500);
+	    window.setInterval(swapImages, 10500);
 
 	    function swapImages() {
 	        
@@ -101,10 +101,14 @@ $(function(){
 	    return false;
 	});
 
+
 	$(".callback2").on("click", function(){
 	    $(".popup2").arcticmodal();
 	    return false;
 	});
+
+	
+
 
 	$(".cbkpop1").on("click", function(){
 	    $(".popup3").arcticmodal();

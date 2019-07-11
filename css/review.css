@@ -39,15 +39,16 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 6rem;
+padding-bottom: 4rem;
 }
 
 .reviews_block_title{
   font-family: ProximaNova, sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   color: #fff;
-  padding-bottom: 30px;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -58,7 +59,7 @@ padding-bottom: 30px;
   position: relative;
   width: 90%;
   max-width: 768px;
-  background-color: rgba(51,51,51, 0.9);
+  background-color: rgba(51,51,51, 0.6);
   border: 2px solid #fff;
   border-radius: 16px;
   margin: 2em auto;
@@ -67,6 +68,8 @@ padding-bottom: 30px;
   padding: 20px 40px 70px;
   z-index: 1;
 }
+
+
 .cd-testimonials-wrapper::after {
   /* quotation mark */
   content: '\201C';
@@ -86,6 +89,8 @@ padding-bottom: 30px;
   /* visible on big devices only */
   display: none;
 }
+
+
 @media only screen and (min-width: 768px) {
   .cd-testimonials-wrapper {
     margin: 4em auto;
@@ -256,13 +261,14 @@ padding-bottom: 30px;
 }
 @media only screen and (min-width: 1170px) {
   .flex-direction-nav li a::before, .flex-direction-nav li a::after {
-    background-color: #5e5e63;
+    background-color: #fff;
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
     transition: background-color 0.2s;
   }
   .flex-direction-nav li a:hover::before, .flex-direction-nav li a:hover::after {
-    background-color: white;
+    background-color: #fff;
+    opacity: 0.8;
   }
 }
 

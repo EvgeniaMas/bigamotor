@@ -372,7 +372,22 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
-.glyphicon-asterisk:before {
+
+.glyphicon-chevron-left:before {
+    content: "\e079";
+    color: #333;
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    color: #333;
+}
+
+
+
+
+
+/*.glyphicon-asterisk:before {
     content: "\2a"
 }
 
@@ -705,13 +720,7 @@ body {
     content: "\e078"
 }
 
-.glyphicon-chevron-left:before {
-    content: "\e079"
-}
 
-.glyphicon-chevron-right:before {
-    content: "\e080"
-}
 
 .glyphicon-plus-sign:before {
     content: "\e081"
@@ -1408,7 +1417,7 @@ body {
 .glyphicon-menu-up:before {
     content: "\e260"
 }
-
+*/
 *,
 :after,
 :before {
@@ -2808,7 +2817,7 @@ caption {
     color: #777
 }
 
-.table {
+/*.table {
     width: 100%;
     max-width: 100%;
     margin-bottom: 20px
@@ -3054,7 +3063,7 @@ table th[class*=col-] {
     .table-responsive>.table-bordered>tfoot>tr:last-child>th {
         border-bottom: 0
     }
-}
+}*/
 
 fieldset,
 legend {
@@ -3680,7 +3689,7 @@ fieldset[disabled] a.btn {
     pointer-events: none
 }
 
-.btn-default {
+/*.btn-default {
     color: #333;
     background-color: #fff;
     border-color: #ccc
@@ -4139,7 +4148,7 @@ input[type=button].btn-block,
 input[type=reset].btn-block,
 input[type=submit].btn-block {
     width: 100%
-}
+}*/
 
 .fade {
     opacity: 0;
@@ -4197,7 +4206,7 @@ tbody.collapse.in {
     outline: 0
 }
 
-.dropdown-menu {
+/*.dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -5680,7 +5689,7 @@ a.label:hover {
     color: #fff;
     cursor: pointer;
     text-decoration: none
-}
+}*/
 
 .label {
     display: inline;
@@ -7366,23 +7375,23 @@ button.close {
 }
 
 .carousel-control.left {
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-    background-repeat: repeat-x
+    background-repeat: repeat-x*/
 }
 
 .carousel-control.right {
     right: 0;
     left: auto;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    /*background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-    background-repeat: repeat-x
+    background-repeat: repeat-x*/
 }
 
 .carousel-control:focus,
@@ -11615,7 +11624,7 @@ h2 {
 }
 
 .bg2 p {
-    color: #777;
+    color: #333;
     font-size: 1.6rem
 }
 
@@ -12025,8 +12034,8 @@ footer h2 span {
     padding: 20px;
     box-shadow: -5px 5px 30px 0 rgba(0, 0, 0, .1);
     background: #fff;
-    background: -webkit-linear-gradient(0deg, #fff, #fff, #f0f0eb);
-    background: linear-gradient(90deg, #fff, #fff, #f0f0eb)
+    /*background: -webkit-linear-gradient(0deg, #fff, #fff, #f0f0eb);
+    background: linear-gradient(90deg, #fff, #fff, #f0f0eb)*/
 }
 
 .bg7 .gif {
@@ -12210,7 +12219,8 @@ max-width: 120px;
 
 .bg8 .block .white,
 .bg8 .block .white .name {
-    color: #fff
+    color: #fff;
+    font-weight: bold;
 }
 
 .bg8 .block .plach {
@@ -12370,7 +12380,7 @@ footer .copy span {
 }
 
 .bg9 form button:hover {
-    background-color: #b68f5f;
+    background-color: #a5342e;
     border-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s;
@@ -13212,19 +13222,29 @@ input[hidden] {
 .pop1 {
     margin-top: 25px;
     cursor: pointer;
+    border: 1px solid #d14a43;
+    transition: all .3ms ease-out;
+    display: inline-block;
+    padding: 8px 16px;
 }
 
 .pop1 span {
-    color: #a5342e;
-    text-decoration: underline;
+    color: fff;
+    
 }
 
 .pop1 i {
     margin-left: 10px;
-    color: #a5342e;
+    color: #fff;
     position: relative;
     top: 2px;
 }
+
+.pop1:hover{
+    background-color: #a5342e;
+}
+
+
 
 .popup3 .desc,
 .popup4 .desc {
