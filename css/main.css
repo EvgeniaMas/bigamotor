@@ -12293,11 +12293,14 @@ footer h2 {
 }
 
 .bg9 .desc a {
-    color: #337ab7
+    color: #337ab7;
+    transition: all .3ms ease;
+    cursor: pointer;
 }
 
 .bg9 .desc a:hover {
-    text-decoration: none
+    text-decoration: none;
+    opacity: 0.74;
 }
 
 .minconf a,
