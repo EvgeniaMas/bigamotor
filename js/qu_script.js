@@ -83,10 +83,11 @@ $(function(){
 	  document.querySelector('head').appendChild(msViewportStyle)
 	}
 
-	$(".callbacks").on("click", function(){
-	    $(".popup1").arcticmodal();
-	    return false;
-	});
+	// $(".callbacks").on("click", function(){
+	// 	alert('gghgh');
+	//     $(".popup1").arcticmodal();
+	//     return false;
+	// });
 
 	// $(".navigation a").click(function() {
 	// 	var link = $(this).attr('href');

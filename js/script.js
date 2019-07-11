@@ -116,6 +116,12 @@ $(function(){
 	    return false;
 	});
 
+	$(".cbkpop5").on("click", function(){
+	    $(".popup5").arcticmodal();
+	    return false;
+	});
+
+
 	$("footer .how").on("click", function(){
 	    $(".popup2").arcticmodal();
 	    return false;
