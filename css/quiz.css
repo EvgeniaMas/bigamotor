@@ -11251,8 +11251,23 @@ body .overlay {
     display: block;
     border: 1px solid #ccc;
     border-radius: 5px;
-    vertical-align: top
+    vertical-align: top;
+    outline: none;
 }
+
+
+
+
+.popup1 input:focus{
+  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: none;  
+}
+
+
+
+
+
 
 .popup button,
 .popup1 button,
@@ -11271,9 +11286,8 @@ body .overlay {
     display: block;
     text-align: center;
     position: relative;
-    background: #a08e30;
-    background: -webkit-linear-gradient(#cbb438, #a08e30);
-    background: linear-gradient(#cbb438, #a08e30);
+    background: #d14a43;
+    
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -11283,8 +11297,8 @@ body .overlay {
     line-height: 45px;
     font-family: proxima_nova_rgbold;
     letter-spacing: 2px;
-    box-shadow: 0 10px 10px 0 transparent;
-    -webkit-transition: .3s;
+/*    box-shadow: 0 10px 10px 0 transparent;
+    -webkit-transition: .3s;*/
     transition: .3s;
     height: 45px;
     width: 240px
@@ -11315,7 +11329,7 @@ body .overlay {
 .popup7 button:hover,
 .popup8 button:hover,
 .popupz button:hover {
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .3);
+   /* box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .3);*/
     background-color: #a5342e;
     color: #fff;
     -webkit-transition: .3s;
@@ -11857,9 +11871,10 @@ body .content .nextblock .border .counter {
 body .content .nextblock .border2 {
     padding: 20px;
     text-align: center;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
     border-radius: 10px;
-    margin-top: 10px
+    margin-top: 10px;
+    border: 2px solid #fff;
 }
 
 body .content .nextblock .border2 .descer {
@@ -12670,4 +12685,22 @@ input[name=action] {
 .fa.fa-vk:hover,
 .fa.fa-odnoklassniki:hover{
     opacity: 0.8;
+}
+
+i.fa.fa-mobile.header_phone,
+i.fa.fa-phone.header_phone{
+    font-size: 2rem;
+}
+
+i.fa.fa-mobile.header_phone{
+    margin-right: 2rem;
+}
+
+.header_contacts a{
+    transition: all .3ms ease-out;
+}
+
+.header_contacts a:hover{
+    opacity: 0.6;
+    text-decoration: none;
 }

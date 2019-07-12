@@ -146,9 +146,9 @@ $(function(){
  	 });
 
 	$(".scrollToDown").click(function() {
-		var link = $(this).attr('href');
+		var link = $(this).attr('href');		
 	    $('html, body').animate({
-	        scrollTop: $('.bg3').offset().top
+	        scrollTop: $('#quiz').offset().top
 	    }, 500);
 	    return false;
  	 });
