@@ -149,7 +149,7 @@ $(function(){
 		var link = $(this).attr('href');		
 	    $('html, body').animate({
 	        scrollTop: $('#quiz').offset().top
-	    }, 500);
+	    }, 1000);
 	    return false;
  	 });
 	

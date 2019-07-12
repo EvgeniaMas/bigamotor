@@ -11387,7 +11387,7 @@ textarea:focus {
 }
 
 .bg1 header {
-    height: 90px;
+    height: 130px;
     font-weight: 400;
     position: absolute;
     right: 0;
@@ -11395,6 +11395,16 @@ textarea:focus {
     border: none;
     background-color: #fff;
 }
+
+.logo_slogan{
+font-size: 1.4rem;
+color: #000;
+}
+.logo_slogan span{
+font-weight: bold;   
+color: #d14a43;
+}
+
 
 .bg1 header img {
     height: 55px;
@@ -11455,7 +11465,7 @@ text-decoration: none;
     max-width: 50rem;
     width: 100%;
     margin:auto;
-    margin-top: 7rem;
+    margin-top: 11rem;
     background-color: rgba(255,255,255,0.7);
     box-shadow: -5px 5px 30px 0 rgba(0, 0, 0, .1);
     border-radius: 1rem;
@@ -11525,8 +11535,8 @@ text-decoration: none;
 }
 
 .bg1 .content h1 {
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 90px;
+    margin-bottom: 10px;
     font-size: 2.6rem;
     font-weight: 300;
     color: #fff
@@ -11542,7 +11552,7 @@ text-decoration: none;
 .bg1 .content .desc {
     font-size: 2rem;
     color: #fff;
-    line-height: 3.5rem;
+    line-height: 3rem;
 
 }
 
@@ -11794,11 +11804,12 @@ p.main_description{
 
 .bg5 .cont1 h2 {
     color: #fff;
-    margin-bottom: 30px;
+    font-size: 2.4rem!important;
+    margin-bottom: 25px;
     font-size: 3rem;
     font-weight: 300;
     padding-left: 0;
-    margin-top: 80px
+    margin-top: 60px
 }
 
 .bg5 .cont2 .block:nth-child(1),
@@ -11820,13 +11831,17 @@ p.main_description{
 }
 
 .bg5 .cont1 .desc {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-left: 0;
     color: #fff;
     font-weight: 300;
     margin-bottom: 10px;
     width: 49%
 }
+
+/*service_stat*/
+
+
 
 .bg5 .cont1 .desc span {
     font-weight: 600
@@ -12959,6 +12974,24 @@ footer .about span {
         margin-left: 10px;
         font-size: 1.2rem
     }
+
+    .bg1 header {
+    height: 90px;
+ 
+/*    font-weight: 400;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border: none;
+    background-color: #fff;*/
+}
+
+
+.bg8 .block .inner {
+    height: auto;
+}
+
+
     .bg1 header .text-right nav {
         margin-right: 0
     }
@@ -13377,7 +13410,7 @@ i.fa.fa-phone.header_phone{
 }
 
 i.fa.fa-mobile.header_phone{
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 .header_contacts a{
