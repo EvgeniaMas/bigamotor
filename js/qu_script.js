@@ -16,8 +16,8 @@ $(function(){
 	$('.contactform1').submit(function() { 
 	  if ( $(this).validationEngine('validate') ) {
 	      $(this).ajaxSubmit();
-	      yaCounter44976685.reachGoal('order1'); 
-		  ga('send', 'event', 'order1', 'order1');
+	     
+		  // ga('send', 'event', 'order1', 'order1');
 	      $(this).clearForm();
 	      $.arcticmodal('close');	      
 	      $(".thanks").arcticmodal();
@@ -45,33 +45,14 @@ $(function(){
 	  	  $('.contactform_q input[name="quizsale"]').val('Скидка: ' + $('.fades8 .counternew').text());
 
 	      $(this).ajaxSubmit();
-	      yaCounter44976685.reachGoal('order1');
-		  ga('send', 'event', 'order1', 'order1');
+	     
+		  // ga('send', 'event', 'order1', 'order1');
 	      $(this).clearForm();
 	      $.arcticmodal('close');	      
 	      $(".thanks2").arcticmodal();
 	  }
 	  return false;
 	}); 
-
-
-
-	// function alturaMaxima() {
-	//   var altura = $(window).height();
-	//   $(".full-screen").css('height',altura); 
-	  
-	// }
-
-	// $(document).ready(function() {
-	//   if(jQuery.browser.mobile){
-	//   	$('body').css('height','700px');
-	//   	$('body').css('min-height','700px');
-	//   } else {
-	//   	alturaMaxima();
-	//   	$(window).bind('resize', alturaMaxima);
-	//   }
-	// });
-
 
 	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 	  var msViewportStyle = document.createElement('style')
@@ -88,40 +69,6 @@ $(function(){
 	    $(".popup1").arcticmodal();
 	    return false;
 	});
-
-	// $(".navigation a").click(function() {
-	// 	var link = $(this).attr('href');
-	//     $('html, body').animate({
-	//         scrollTop: $(link).offset().top
-	//     }, 1000);
-	//     return false;
- // 	 });
-	
-
-	// var owl = $("#carous1");
-
-	// owl.owlCarousel({
-	//     loop:true,
-	//     items:1,
-	//     margin:0,
-	//     nav:false,
-	//     mouseDrag:true,
-	//     touchDrag:true,
-	//     dots:true,
-	//     animateOut: 'fadeOut',
- //      autoplay:true,
- //      autoplayTimeout:7000,
- //      autoplayHoverPause:true,
-	//     dotsEach:false
-	// });
-
-	// $('.bg5 .fa-angle-left').click(function() {
-	//   owl2.trigger('prev.owl.carousel');
-	// });
-	// $('.bg5 .fa-angle-right').click(function() {
-	//   owl2.trigger('next.owl.carousel');
-	// });
-
 
 	var q1,q2,q3,q4,q5,q6;
 
@@ -212,7 +159,6 @@ $(function(){
 	    $('.fades8 span.counternew').text($('span.discount-total-count').text());
 	});
 
-
 	$(".nexts2").on("click", function(){
 	    $('.fades2').fadeOut(0);
 	    $('.fades3').fadeIn(300);
@@ -222,9 +168,7 @@ $(function(){
 	    q1 = q1.split('undefined');
 
 	    q1 = q1[0];
-
-
-	    console.log(q1);
+	   
 	    q1 = 'Необходимые запчасти: ' + q1;
 	    $('.border .counter span').text(parseInt($('span.discount-total-count').text())+1+'%');
 	});
@@ -236,7 +180,7 @@ $(function(){
 	    
 	    q2 = 'Марка автомобиля: ' + $('.fades3 label:first-child input').val() + '. Модель автомобиля: ' + $('.fades3 label:nth-child(2) input').val() + '. ';
 	    
-	    console.log(q2);
+	    
 	});
 
 	$(".nexts4").on("click", function(){
@@ -246,7 +190,7 @@ $(function(){
 	    
 	    q3 = 'Год выпуска: ' + $('.fades4 label:first-child input').val() + '. ';
 	    
-	    console.log(q3);
+	    
 	});
 
 	$(".nexts5").on("click", function(){
@@ -256,7 +200,7 @@ $(function(){
 	    
 	    q4 = 'Объем двигателя: ' + $('.fades5 label:first-child input').val() + '. Мощность двигателя: ' + $('.fades5 label:nth-child(2) input').val() + '. ';
 	    
-	    console.log(q4);
+	   
 	});
 
 	var summas;
@@ -272,7 +216,7 @@ $(function(){
 
 	    q5 = q5[0];
 	    q5 = 'Вид коробки передач: ' + q5;
-	    console.log(q5);
+	 
 	});
 
 	$(".nexts7").on("click", function(){
@@ -282,7 +226,7 @@ $(function(){
 	    $('.border .counter span').text(parseInt($('span.discount-total-count').text())+0+'%');
 	    q6 = 'Идентификационный номер VIN: ' + $('.fades7 label:first-child input').val() + '. ';
 	    
-	    console.log(q6);
+	    
 	    $('.fades8 span.counternew').text($('span.discount-total-count').text());
 	});
 

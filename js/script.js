@@ -18,8 +18,7 @@ $(function(){
 	  	  var myphone = $(this).find('input[name="phone"]').val();
           var newphone = parseInt(myphone.replace(/\D+/g,""));
 	      $(this).ajaxSubmit();
-	      $(this).clearForm();
-	      yaCounter44976685.reachGoal('order1'); 
+	      $(this).clearForm();	     
 		  ga('send', 'event', 'order1', 'order1');
 	      $.arcticmodal('close');	      
 	      $(".thanks").arcticmodal();
@@ -72,23 +71,23 @@ $(function(){
 
 		var current = 0,
 
-	    $imgs = jQuery('#header_slider .abc71');
+	    $imgs = jQuery('#header_slider .buy');
 	    imgAmount = $imgs.length;
 	    $('#header_slider').fadeIn(400);
-	    $($imgs.css('position', 'absolute').hide().get($('.abc71:hidden').eq(Math.floor(Math.random() * $('.abc71:hidden').length))-1)).show();
+	    $($imgs.css('position', 'absolute').hide().get($('.buy:hidden').eq(Math.floor(Math.random() * $('.buy:hidden').length))-1)).show();
 
 
 	    window.setInterval(swapImages, 10500);
 
 	    function swapImages() {
 	        
-	        var $currentImg = $('.abc71:visible');
+	        var $currentImg = $('.buy:visible');
 	        
-	        var $nextImg = $('.abc71:hidden').eq(Math.floor(Math.random() * $('.abc71:hidden').length));
+	        var $nextImg = $('.buy:hidden').eq(Math.floor(Math.random() * $('.buy:hidden').length));
 	            speed = 500;
 	        // animation speed should be the same for both images so we have a smooth change
-	        setTimeout("$('.abc71:visible').fadeOut(500)", 2200);
-	        setTimeout("$('.abc71:hidden').eq(Math.floor(Math.random() * $('.abc71:hidden').length)).fadeIn(speed)", 8000);
+	        setTimeout("$('.buy:visible').fadeOut(500)", 2200);
+	        setTimeout("$('.buy:hidden').eq(Math.floor(Math.random() * $('.buy:hidden').length)).fadeIn(speed)", 8000);
 	        console.log('1');
 	    }
 
@@ -113,8 +112,6 @@ $(function(){
 	    return false;
 	});
 
-	
-
 
 	$(".cbkpop1").on("click", function(){
 	    $(".popup3").arcticmodal();
@@ -130,7 +127,6 @@ $(function(){
 	    $(".popup5").arcticmodal();
 	    return false;
 	});
-
 
 	$("footer .how").on("click", function(){
 	    $(".popup2").arcticmodal();
