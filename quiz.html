@@ -13,8 +13,19 @@
     <link rel="stylesheet" href="css/quiz.css">
     <script src="https://use.fontawesome.com/98c5b25e9c.js"></script>
     <!--if lt IE 9script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T7SQRZR');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body id="main">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7SQRZR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div class="rel">
         <div class="overlay"></div>
     </div>
@@ -55,11 +66,11 @@
                         <div class="zag">Не знаете как ответить?</div>
                         <div class="descer">Получите консультацию специалиста.
                             <br class="hidden-sm hidden-xs">Оставьте имя и телефон, мы перезвоним за 5 минут!</div>
-                        <form  method="post" action="call.php" class="contactform1">
+                        <form  method="post" action="" class="sup_form">
                             <input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]">
                             <input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]">
-                            <input type="text" name="action" hidden="" value="«Клиент не знает как ответить на вопросы теста»">
-                            <button class="mybtn_white">Отправить</button>
+                            <input type="hidden" name="action" value="«Клиент не знает как ответить на вопросы опроса на странице Теста»">
+                            <button type="submit" class="mybtn_white">Отправить</button>
                             <div class="minconf">Нажимая на кнопку «<span class="textbtn"></span>», я даю <a href="politics.pdf">согласие на обработку персональных данных.</a></div>
                         </form>
                     </div>
@@ -111,9 +122,9 @@
                                     </div>
                                 </label>
                                  <label>
-                                    <div data-s="Другое" data-f1="90" class="div">
+                                    <div data-s="другое" data-f1="90" class="div">
                                         <div class="checkin"></div>
-                                        <div class="text">Другое</div>
+                                        <div class="text">другое</div>
                                     </div>
                                 </label>                              
                             </div>
@@ -264,16 +275,16 @@
                         <div class="block">
                             <div class="quest">
                                 <h2>Спасибо за ответы!</h2>
-                                <div class="desc">Вам подобраны несколько вариантов деталей по указанным параметрам. Оставьте ниже телефон, для получения по СМС информации о подобранных деталях и закрепления за Вами скидки.</div>
+                                <div class="desc">Вам подобраны несколько вариантов деталей по указанным параметрам. Оставьте ниже телефон, для получения по СМС информации и закрепления за Вами скидки.</div>
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <div class="text">
                                             <div>Вы ответили на 6 вопросов и получили скидку в размере <span class="counternew">10%!</span>
                                                 <br>ВНИМАНИЕ! Скидка действует в течение суток!</div>
-                                            <div>Оставьте свой телефон, мы закрепим персональную скидку за Вашим номером,
-                                                <br>а также вышлем подобранный перечень деталей.</div>
+                                            <div>Оставьте телефон, мы закрепим персональную скидку за Вашим номером,
+                                                <br>а также отправим Вам подобранный перечень деталей.</div>
                                         </div>
-                                        <form  method="post" action="quiz.php" class="contactform_q" accept-charset="utf-8">
+                                        <form  method="post" action="" class="contactform_q" accept-charset="utf-8">
                                             <input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]">
                                             <input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]">
                                             <input type="text" name="city" placeholder="Введите Ваш город:" class="form-control city validate[required]">
@@ -285,7 +296,7 @@
                                             <input type="hidden" name="quiz6">
                                             <input type="hidden" name="quizsale">
                                             <input type="hidden" name="action" value="«Основная заявка от клиента»">
-                                            <button id="mainbtnpost" class="mybtn_white">Оставить заявку</button>
+                                            <button type="submit" id="mainbtnpost" class="mybtn_white">Оставить заявку</button>
                                             <div  class="minconf">Нажимая на кнопку «<span class="textbtn"></span>», я даю <a href="politics.pdf">согласие на обработку персональных данных.</a></div>
                                         </form>
                                     </div>
@@ -329,16 +340,16 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="zag">Требуется консультация специалиста?<span></span></div>
-                    <p class="desc main">Оставьте заявку, и мы свяжемся с Вами для консультации в течение 15 минут.</p>
+                    <p class="desc main">Оставьте заявку, и мы свяжемся с Вами для консультации.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <form method="post" action="call.php" class="contactform1">
+                    <form method="post" action="" class="sup_form">
                         <input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]">
                         <input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]">
-                        <input id="hideinp" type="text" name="action" hidden="" value="«Клиент не уверен, что надо заменить»">
-                        <button>Оставить заявку</button>
+                        <input id="hideinp" type="hidden" name="action"  value="«Клиент не уверен, что надо заменить»">
+                        <button type="submit">Оставить заявку</button>
                         <div  class="minconf">Нажимая на кнопку «<span class="textbtn"></span>», я даю <a href="politics.pdf">согласие на обработку персональных данных.</a></div>
                     </form>
                 </div>
@@ -349,7 +360,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="zag">Спасибо!
-                        <br class="hidden-xs">Заявка отправлена, ожидайте звонка</div>
+                        <br class="hidden-xs">Ваша заявка успешно отправлена, ожидайте звонка</div>
                 </div>
             </div>
         </div>
@@ -357,11 +368,13 @@
             <div class="box-modal_close arcticmodal-close close"><span>Закрыть</span></div>
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="zag">Спасибо за обращение в нашу компанию.
-                        <br class="hidden-xs">С Вами свяжутся в ближайшие время.</div>
-                    <div class="desc">Во время ожидания звонка Вы можете ознакомиться с нашими группами Вконтакте и в Одноклассниках.</div>
-                    <div class="soc"><a href="https://vk.com/zapchasti_inomarka_rassrochka" target="_blank"><i class="fa fa-vk"></i></a>
-                      <a href="https://www.ok.ru/group/53679549317249" target="_blank"><i class="fa fa-odnoklassniki"></i></a>  </div>
+                    <div class="zag">Спасибо за обращение в "BIGAMOTOR"!
+                        <br class="hidden-xs">Мы скоро с Вами свяжемся!</div>
+                    <div class="desc">Во время ожидания Вы также можете ознакомиться с информацией в нашей группе в социальной сети "Вконтакте".</div>
+                    <div class="soc">
+                        <a href="https://vk.com/zapchasti_inomarka_rassrochka" target="_blank"><i class="fa fa-vk"></i></a>
+                     
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,17 +1,25 @@
 @font-face {
-    font-family: proxima_nova_rgbold;
-    src: url(../fonts/proximanova-bold-webfont.eot);
-    src: url(../fonts/proximanova-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/proximanova-bold-webfont.woff2) format("woff2"), url(../fonts/proximanova-bold-webfont.woff) format("woff"), url(../fonts/proximanova-bold-webfont.ttf) format("truetype"), url(../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: ProximaNova;
+    src: url(../fonts/Proxima-Nova-Regular.otf);
+    font-weight: 400
 }
 
 @font-face {
-    font-family: proxima_nova_ltlight;
-    src: url(../fonts/proximanova-light-webfont.eot);
-    src: url(../fonts/proximanova-light-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/proximanova-light-webfont.woff2) format("woff2"), url(../fonts/proximanova-light-webfont.woff) format("woff"), url(../fonts/proximanova-light-webfont.ttf) format("truetype"), url(../fonts/proximanova-light-webfont.svg#proxima_nova_ltlight) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: ProximaNova;
+    src: url(../fonts/Proxima-Nova-Bold.otf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/Proxima-Nova-Light.otf);
+    font-weight: 300
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/Proxima-Nova-Semibold.otf);
+    font-weight: 600
 }
 
 html {
@@ -19,10 +27,9 @@ html {
 }
 
 body {
-    font-family: proxima_nova_ltlight, sans-serif!important
+    font-family: ProximaNova, sans-serif!important;
+    font-weight: 300
 }
-
-
 .col-lg-15,
 .col-md-15,
 .col-sm-15,
@@ -1572,7 +1579,7 @@ input:focus {
         margin-left: 20px!important
     }
     header nav ul li * {
-        font-size: 1.4rem!important;
+        font-size: 1.8rem!important;
         letter-spacing: -1px
     }
     header nav ul li a .logo {
@@ -1583,9 +1590,14 @@ input:focus {
         margin-right: 0
     }
     header nav ul .text-right {
-        width: 130px!important;
-        float: right
+        max-width: 220px!important;
+        float: right;   
+        margin-top: 26px!important;     
     }
+
+
+
+
     .content .width,
     .nextblock .fades2 .block .answers label {
         width: 100%!important
@@ -1721,6 +1733,27 @@ input:focus {
     .popup1 .zag {
         font-size: 2rem!important
     }
+
+    body header nav ul li {
+    padding-top: 0;
+
+}
+
+body header nav ul li:first-child {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    
+}
+
+body header nav ul .logo img {
+    height:auto;
+    width: 100%;
+    margin-top: 26px;
+    max-width: 126.5px;
+}
+
+
 }
 
 input[name=action] {
@@ -1747,8 +1780,6 @@ input[name=action] {
 .popup3 .minconf a {
     color: #000
 }
-
-
 .fa.fa-vk{
     color: #fff!important;
     background-color: #48739e;
@@ -1756,19 +1787,19 @@ input[name=action] {
     border-radius: 6px;
     border: 1px solid #fff;
     margin-left: 1rem;
+    font-size: 2rem;
     border-radius: 3px;
-    transition: all .3ms ease-out;
+    transition: all .3s ease-out;
     cursor: pointer;
+
 }
-
-
-
 .fa.fa-odnoklassniki{
     color: #fff!important;
     background-color: #fa932e;
     padding: 8px 14px;
     border-radius: 3px;
-    transition: all .3ms ease-out;
+    font-size: 2rem;    
+    transition: all .3s ease-out;
     cursor: pointer;
       border-radius: 6px;
     border: 1px solid #fff;

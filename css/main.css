@@ -33,6 +33,8 @@ body {
 
 .wrapper{
 max-width: 1920px;
+position: relative;
+margin: auto;
 }
 
 .col-lg-15,
@@ -458,7 +460,7 @@ textarea:focus {
     outline: 0
 }
 
-.bg1 header {
+.screen1 header {
     height: 130px;
     font-weight: 400;
     position: absolute;
@@ -476,14 +478,14 @@ color: #000;
 font-weight: bold;   
 color: #d14a43;
 }
-.bg1 header img {
+.screen1 header img {
     height: 55px;
     margin-top: 10px;
     display: inline-block;
     vertical-align: top
 }
 
-.bg1 header p.right {
+.screen1 header p.right {
     color: #c0cade;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -493,25 +495,25 @@ color: #d14a43;
     margin-left: 20px
 }
 
-.bg1 header nav {
+.screen1 header nav {
     display: inline-block;
     vertical-align: top;
     text-align: center;
     margin-right: 30px
 }
 
-.bg1 header nav ul {
+.screen1 header nav ul {
     padding-left: 0;
     margin-top: 27px;
     text-align: center
 }
 
-.bg1 header nav ul li {
+.screen1 header nav ul li {
     display: inline-block;
     margin-right: 15px
 }
 
-.bg1 header nav ul li a {
+.screen1 header nav ul li a {
     color: #000;
     font-size: 1.3rem;
     font-weight: bold;
@@ -519,8 +521,8 @@ color: #d14a43;
     transition: all 0.3s ease;
 }
 
-.bg1 header nav ul li a:hover,
-.bg1 header nav ul li a:focus
+.screen1 header nav ul li a:hover,
+.screen1 header nav ul li a:focus
  {
 opacity: 0.6;
 text-decoration: none;
@@ -531,72 +533,62 @@ text-decoration: none;
     width: 100%;
     margin:auto;
     margin-top: 11rem;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.65);
     box-shadow: -5px 5px 30px 0 rgba(0, 0, 0, .1);
     border-radius: 1rem;
     border: 2px solid #fff;
 }
-.bg1 header nav ul li:after {
+.screen1 header nav ul li:after {
     content: '|';
     color: #000;
     margin-left: 15px
 }
 
-.bg1 header nav ul li:nth-child(4):after {
+.screen1 header nav ul li:nth-child(4):after {
     content: ' ';
     margin-right: 0
 }
 
-.bg1 header .phone {
+.screen1 header .phone {
     margin-top: 26px;
     display: inline-block;
     vertical-align: top;
     text-align: right
 }
 
-.bg6,
-.bg7 h2,
-.bg8 h2 {
+.screen6,
+.screen7 h2,
+.screen8 h2 {
     text-align: center
 }
 
-.bg1 header .phone a {
+.screen1 header .phone a {
     color: #000;
     font-size: 1.6rem;
 }
 
-.bg1 header .phone a i {
+.screen1 header .phone a i {
     margin-right: 7px
 }
 
-.bg1 header .phone a:hover {
+.screen1 header .phone a:hover {
     text-decoration: none
 }
 
-.bg1 header .phone span {
+.screen1 header .phone span {
     display: block;
     font-size: 1.4rem;
     color: #fff
 }
-
-.bg1 .content {
-    padding-top: 80px;
-    padding-bottom: 90px;
-    background-image: url(../img/main.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top
-}
-
-.bg3,
-.bg5 {
+.screen3,
+.screen5 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden
 }
 
-.bg1 .content h1 {
+.screen1 .content h1 {
     margin-top: 90px;
     margin-bottom: 25px;
     font-size: 2.6rem;
@@ -604,20 +596,20 @@ text-decoration: none;
     color: #fff
 }
 
-.bg1 .content h1 span {
+.screen1 .content h1 span {
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 3.6rem;
     line-height: normal
 }
 
-.bg1 .content .desc {
+.screen1 .content .desc {
     font-size: 2rem;
     color: #fff;
     line-height: 3rem;
 
 }
-.bg1 .content button {
+.screen1 .content button {
     margin-top: 45px;
     border-radius: 5px;
         border: 2px solid #d14a43;
@@ -633,41 +625,41 @@ text-decoration: none;
     transition: .3s
 }
 
-.bg3 h2,
-.bg3 h2 span,
-.bg5 .cont1 h2,
-.bg5 .cont1 h2 span,
-.bg6 h2,
-.bg6 h2 span {
+.screen3 h2,
+.screen3 h2 span,
+.screen5 .cont1 h2,
+.screen5 .cont1 h2 span,
+.screen6 h2,
+.screen6 h2 span {
     line-height: normal
 }
 
-.bg1 .content button:hover {
+.screen1 .content button:hover {
     background-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s;
     color: #fff
 }
 
-.bg1 .content button:hover .dots {
+.screen1 .content button:hover .dots {
     -webkit-transition: .3s;
     transition: .3s
 }
 
-.bg1 .content button:hover .dots span {
+.screen1 .content button:hover .dots span {
     background-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s
 }
 
-.bg1 .content button .dots {
+.screen1 .content button .dots {
     display: inline-block;
     margin-left: 7px;
     padding-top: 17px;
     vertical-align: top
 }
 
-.bg1 .content button .dots span {
+.screen1 .content button .dots span {
     background-color: #a5342e;
     height: 5px;
     display: inline-block;
@@ -682,17 +674,17 @@ h2 {
     margin-top: 0
 }
 
-.bg2 {
+.screen2 {
     padding-top: 25px;
     padding-bottom: 25px
 }
 
-.bg2 p {
+.screen2 p {
     color: #333;
     font-size: 1.6rem
 }
 
-.bg3 {
+.screen3 {
     background-image: url(../img/bg2.png);
     padding-top: 70px;
     padding-bottom: 70px;
@@ -700,41 +692,41 @@ h2 {
     margin-top: 10px;
 }
 
-.bg3_half {
+.screen3_half {
     padding-top: 70px;
     padding-bottom: 70px;
     padding-bottom: 10rem;
     margin-top: 10px;
 }
 
-#quiz.bg3{
+#quiz.screen3{
     margin-bottom: 10px;
 }
 
-.bg3 h2 {
+.screen3 h2 {
     color: #fff;
     margin-bottom: 30px;
     font-size: 3rem;
     font-weight: 300
 }
 
-.bg3 h2 span {
+.screen3 h2 span {
     letter-spacing: 1px;
     font-weight: 600
 }
 
-.bg3 .desc {
+.screen3 .desc {
     font-size: 2rem;
     color: #fff;
     font-weight: 600;
     margin-bottom: 10px
 }
 
-.bg3 ul {
+.screen3 ul {
     padding-left: 0
 }
 
-.bg3 ul li {
+.screen3 ul li {
     list-style-position: outside;
     margin-bottom: 10px;
     font-size: 1.6rem;
@@ -754,20 +746,20 @@ p.main_description{
     font-size: 1.8rem;
     margin-top: 20px;
 }
-.bg3 .gif1 {
+.screen3 .gif1 {
     /*margin-top: -50px;*/
     margin: auto;
     width: 450px;
     max-width: 450px;
 }
 
-.bg3 .gif1.gift_right {
+.screen3 .gif1.gift_right {
     margin: auto;
     width: 450px;
     max-width: 450px;
 }
 
-.bg3 button {
+.screen3 button {
     margin-top: 35px;
     border-radius: 5px;
     border: 2px solid #d14a43;
@@ -783,13 +775,13 @@ p.main_description{
     transition: .3s
 }
 
-.bg3 button img {
+.screen3 button img {
     margin-left: 10px;
     position: relative;
     top: -1px
 }
 
-.bg3 button:hover {
+.screen3 button:hover {
     background-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s;
@@ -828,29 +820,29 @@ p.main_description{
 
 
 
-.bg4 {
+.screen4 {
     padding-top: 10px;
     background-color: #fff;
     padding-bottom: 10px
 }
 
-.bg6,
-.bg7 {
+.screen6,
+.screen7 {
     padding-top: 70px;
     padding-bottom: 70px
 }
 
-.bg4 img {
+.screen4 img {
     -webkit-transition: .3s;
     transition: .3s
 }
 
-.bg5 {
+.screen5 {
     background-image: url(../img/bg5.jpg);
     height: 877px
 }
 
-.bg5 .cont1 h2 {
+.screen5 .cont1 h2 {
     color: #fff;
     font-size: 2.4rem!important;
     margin-bottom: 25px;
@@ -860,9 +852,9 @@ p.main_description{
     margin-top: 60px
 }
 
-.bg5 .cont2 .block:nth-child(1),
-.bg5 .cont2 .block:nth-child(2),
-.bg5 .cont2 .block:nth-child(3) {
+.screen5 .cont2 .block:nth-child(1),
+.screen5 .cont2 .block:nth-child(2),
+.screen5 .cont2 .block:nth-child(3) {
     margin-top: 0;
     height: 207px;
     display: inline-block;
@@ -873,12 +865,12 @@ p.main_description{
     background-repeat: no-repeat
 }
 
-.bg5 .cont1 h2 span {
+.screen5 .cont1 h2 span {
     letter-spacing: 1px;
     font-weight: 600
 }
 
-.bg5 .cont1 .desc {
+.screen5 .cont1 .desc {
     font-size: 1.8rem;
     padding-left: 0;
     color: #fff;
@@ -887,62 +879,62 @@ p.main_description{
     width: 49%
 }
 
-.bg5 .cont1 .desc span {
+.screen5 .cont1 .desc span {
     font-weight: 600
 }
 
-.bg5 .cont2 .block:nth-child(1) {
-    background-image: url(../img/plach1.png);
+.screen5 .cont2 .block:nth-child(1) {
+    background-image: url(../img/bl1.png);
     width: 506px;
     -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
 }
 
-.bg5 .cont2 .block:nth-child(1) .name {
+.screen5 .cont2 .block:nth-child(1) .name {
     margin-left: -30px
 }
 
-.bg5 .cont2 .block:nth-child(1) .text {
+.screen5 .cont2 .block:nth-child(1) .text {
     padding-left: 30px
 }
 
-.bg5 .cont2 .block:nth-child(2) {
-    background-image: url(../img/plach2.png);
+.screen5 .cont2 .block:nth-child(2) {
+    background-image: url(../img/bl2.png);
     width: 395px;
     margin-left: -60px;
     -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
 }
 
-.bg5 .cont2 .block:nth-child(2) .name {
+.screen5 .cont2 .block:nth-child(2) .name {
     margin-left: -45px
 }
 
-.bg5 .cont2 .block:nth-child(2) .text {
+.screen5 .cont2 .block:nth-child(2) .text {
     padding-left: 10px;
     position: relative;
     left: 7px
 }
 
-.bg6 .desc,
-.bg6 h2 {
+.screen6 .desc,
+.screen6 h2 {
     padding-left: 0;
     color: #fff
 }
 
-.bg5 .cont2 .block:nth-child(3) {
-    background-image: url(../img/plach3.png);
+.screen5 .cont2 .block:nth-child(3) {
+    background-image: url(../img/bl3.png);
     width: 354px;
     margin-left: -60px;
     -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
 }
 
-.bg5 .cont2 .block:nth-child(3) .name {
+.screen5 .cont2 .block:nth-child(3) .name {
     margin-left: -35px
 }
 
-.bg5 .cont2 .block .name {
+.screen5 .cont2 .block .name {
     font-size: 2rem;
     font-weight: 600;
     line-height: normal;
@@ -951,7 +943,7 @@ p.main_description{
     margin-bottom: 20px
 }
 
-.bg5 .cont2 .block .name a {
+.screen5 .cont2 .block .name a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1.6rem;
@@ -961,20 +953,20 @@ p.main_description{
     transition: all .3s ease;
 }
 
-.bg5 .cont2 .block .name a:hover{
+.screen5 .cont2 .block .name a:hover{
 text-decoration: none;
 opacity: 0.8;
 }
-.bg6 h2 span,
-.bg7 h2 span,
-.bg8 h2 span,
-.bg9 h2 span,
+.screen6 h2 span,
+.screen7 h2 span,
+.screen8 h2 span,
+.screen9 h2 span,
 footer .how,
 footer h2 span {
     letter-spacing: 1px
 }
 
-.bg5 .cont2 .block .name a i {
+.screen5 .cont2 .block .name a i {
     margin-left: 10px;
     font-size: 3rem;
     vertical-align: middle;
@@ -982,7 +974,7 @@ footer h2 span {
     top: -3px
 }
 
-.bg5 .cont2 .block .text {
+.screen5 .cont2 .block .text {
     width: 62%;
     font-size: 1.5rem;
     display: block;
@@ -990,22 +982,22 @@ footer h2 span {
     margin-right: auto
 }
 
-.bg5 .cont2 .line,
-.bg5 .cont2 .line2 {
+.screen5 .cont2 .line,
+.screen5 .cont2 .line2 {
     width: 570px;
     background-color: #fff;
     height: 2px;
 }
 
-.bg5 .cont2 .line {
+.screen5 .cont2 .line {
     margin: 150px 95px 45px auto
 }
 
-.bg5 .cont2 .line2 {
+.screen5 .cont2 .line2 {
     margin: 45px -40px 45px auto
 }
 
-.bg6 {
+.screen6 {
     margin-top: 10px;
     background-image: url(../img/bg6.jpg);
     background-size: cover;
@@ -1013,24 +1005,24 @@ footer h2 span {
     background-repeat: no-repeat
 }
 
-.bg6 h2 {
+.screen6 h2 {
     margin-bottom: 30px;
     font-size: 3rem;
     font-weight: 300
 }
 
-.bg6 h2 span {
+.screen6 h2 span {
     font-weight: 600
 }
 
-.bg6 .desc {
+.screen6 .desc {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 10px
 }
 
-.bg6 .form form button,
-.bg6 .form form input {
+.screen6 .form form button,
+.screen6 .form form input {
     height: 45px;
     padding-left: 15px;
     padding-right: 15px;
@@ -1041,15 +1033,15 @@ footer h2 span {
     margin-left: 10px
 }
 
-.bg6 .desc span {
+.screen6 .desc span {
     font-weight: 600
 }
 
-.bg6 .form {
+.screen6 .form {
     margin-top: 40px
 }
 
-.bg6 .form form input {
+.screen6 .form form input {
     border-radius: 5px;
     border: 2px solid #a5342e;
     background-color: transparent;
@@ -1061,23 +1053,23 @@ footer h2 span {
     color: #fff;
 }
 
-.bg6 .form form::-webkit-input-placeholder {
+.screen6 .form form::-webkit-input-placeholder {
     color: rgba(255, 255, 255, .98)
 }
 
-.bg6 .form form::-moz-placeholder {
+.screen6 .form form::-moz-placeholder {
     color: rgba(255, 255, 255, .98)
 }
 
-.bg6 .form form:-moz-placeholder {
+.screen6 .form form:-moz-placeholder {
     color: rgba(255, 255, 255, .98)
 }
 
-.bg6 .form form:-ms-input-placeholder {
+.screen6 .form form:-ms-input-placeholder {
     color: rgba(255, 255, 255, .98)
 }
 
-.bg6 .form form button {
+.screen6 .form form button {
     border-radius: 5px;
     border: 2px solid #d14a43;
     color: #fff;
@@ -1087,31 +1079,32 @@ footer h2 span {
     transition: .3s
 }
 
-.bg7 .width,
-.bg8 .block img.inner {
-    border-radius: 18px
-}
+.screen7 .width,
+.screen8 .block img.inner {
+    border-radius: 18px;
+     
+ }
 
-.bg6 .form form button img {
+.screen6 .form form button img {
     margin-left: 10px;
     position: relative;
     top: -1px
 }
 
-.bg6 .form form button:hover {
+.screen6 .form form button:hover {
     background-color: #a5342e;
     -webkit-transition: .3s;
     transition: .3s;
     color: #fff
 }
 
-.bg7 {
+.screen7 {
     margin-top: 10px;
     overflow: hidden;
     background-color: #313139
 }
 
-.bg7 h2 {
+.screen7 h2 {
     color: #fff;
     margin-bottom: 40px;
     font-size: 3rem;
@@ -1121,18 +1114,18 @@ footer h2 span {
     padding-left: 0
 }
 
-.bg7 .block .media .media-body .text,
-.bg8 .desc,
-.bg8 .text {
+.screen7 .block .media .media-body .text,
+.screen8 .desc,
+.screen8 .text {
     color: #555
 }
 
-.bg7 h2 span {
+.screen7 h2 span {
     font-weight: 600;
     line-height: normal
 }
 
-.bg7 .width {
+.screen7 .width {
     width: 1000px;
     margin: auto;
     padding: 20px;
@@ -1140,7 +1133,7 @@ footer h2 span {
     background: #fff;   
 }
 
-.bg7 .gif {
+.screen7 .gif {
     margin-top: 15px;
     -webkit-filter: sepia(.3) contrast(1.05);
     filter: sepia(.3) contrast(1.05);
@@ -1149,19 +1142,19 @@ footer h2 span {
     transition: .3s
 }
 
-.bg7 .gif:hover {
+.screen7 .gif:hover {
     -webkit-filter: sepia(0) contrast(1.05);
     filter: sepia(0) contrast(1.05);
     -webkit-transition: .3s;
     transition: .3s
 }
 
-.bg7 .blocks .out2 {
+.screen7 .blocks .out2 {
     height: 115px;
     position: relative
 }
 
-.bg7 .blocks img {
+.screen7 .blocks img {
     position: absolute;
     right: 0;
     left: 0;
@@ -1173,38 +1166,38 @@ footer h2 span {
     display: block
 }
 
-.bg7 .block {
+.screen7 .block {
     padding-bottom: 20px;
     margin-top: 20px;
     border-bottom: 1px solid #d14a43;
 }
 
-.bg7 .block .media .media-left .out {
+.screen7 .block .media .media-left .out {
     width: 100px
 }
 
-.bg7 .block .media .media-left img {
+.screen7 .block .media .media-left img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 65px;
 }
 
-.bg7 .block .media .media-body {
+.screen7 .block .media .media-body {
     padding-left: 10px
 }
 
-.bg7 .block .media .media-body .name {
+.screen7 .block .media .media-body .name {
     font-size: 2rem;
     margin-bottom: 5px
 }
 
 
-.bg7 .block .media .media-body .name{
+.screen7 .block .media .media-body .name{
     font-weight: bold;
     color: #000;
 }
-.bg7 .block:nth-child(3) {
+.screen7 .block:nth-child(3) {
     border-bottom: 0
 }
 
@@ -1240,12 +1233,12 @@ footer h2 span {
     width: auto!important
 }
 
-.bg8 {
+.screen8 {
     padding-top: 70px;
     padding-bottom: 70px
 }
 
-.bg8 .desc {
+.screen8 .desc {
     font-size: 2rem;
     padding-left: 0;
     font-weight: 400;
@@ -1255,32 +1248,32 @@ footer h2 span {
 display: block;
 max-width: 120px;
 }
-.bg8 .desc span,
-.bg8 .text span {
+.screen8 .desc span,
+.screen8 .text span {
     font-weight: 600
 }
 
-.bg8 .text {
+.screen8 .text {
     margin-bottom: 30px;
     margin-top: 0;
     font-size: 1.6rem;
     line-height: 2.4rem;
     padding-top: 0;
     position: absolute;
-    bottom: 00px;
+    bottom: 0;
     left: 30px;
     width: 100%;
     padding-right: 50px
 }
 
-.bg8 h2,
-.bg8 h2 span,
-.bg9 h2,
-.bg9 h2 span {
+.screen8 h2,
+.screen8 h2 span,
+.screen9 h2,
+.screen9 h2 span {
     line-height: normal
 }
 
-.bg8 h2 {
+.screen8 h2 {
     color: #000;
     margin-bottom: 40px;
     font-size: 3rem;
@@ -1290,15 +1283,16 @@ max-width: 120px;
     padding-left: 0
 }
 
-.bg8 h2 span {
+.screen8 h2 span {
     font-weight: 600
 }
 
-.bg8 .block {
-    position: relative
+.screen8 .block {
+    position: relative;
+
 }
 
-.bg8 .block .name {
+.screen8 .block .name {
     font-size: 2.4rem;
     color: #222;
     margin-bottom: 30px;
@@ -1307,13 +1301,15 @@ max-width: 120px;
     width: 100%
 }
 
-.bg8 .block .white,
-.bg8 .block .white .name {
+.screen8 .block .white,
+.screen8 .block .white .name {
     color: #fff;
     font-weight: bold;
+        max-width: 380px;
+
 }
 
-.bg8 .block .plach {
+.screen8 .block .plach {
     border-radius: 100px;
     color: #fff;
     display: inline-block;
@@ -1325,46 +1321,47 @@ max-width: 120px;
     top: 17px
 }
 
-.bg9 form button,
+.screen9 form button,
 footer .how span i {
     margin-left: 10px
 }
 
-.bg8 .nm1 {
+.screen8 .nm1 {
     top: -40px
 }
 
-.bg8 .inner {
+.screen8 .inner {
     width: 100%;
     border-radius: 20px;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .09)
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .09);
+    max-width: 380px;
 }
 
-.bg8 .bl1 {
+.screen8 .bl1 {
     margin-top: 80px
 }
 
-.bg8 .bl2 {
+.screen8 .bl2 {
     margin-top: 0
 }
 
-.bg8 .bl3 {
+.screen8 .bl3 {
     margin-top: -80px
 }
 
-.bg8 .bl4 {
+.screen8 .bl4 {
     margin-top: -50px
 }
 
-.bg8 .bl5 {
+.screen8 .bl5 {
     margin-top: -130px
 }
 
-.bg9 {
+.screen9 {
     padding-bottom: 70px
 }
 
-.bg9 .desc {
+.screen9 .desc {
     font-size: 2rem;
     padding-left: 0;
     color: #555;
@@ -1372,16 +1369,16 @@ footer .how span i {
     margin-bottom: 10px
 }
 
-.bg9 h2,
+.screen9 h2,
 footer h2 {
     margin-bottom: 20px
 }
 
-.bg9 .desc span {
+.screen9 .desc span {
     font-weight: 600
 }
 
-.bg9 .desc a {    
+.screen9 .desc a {    
     color: #d14a43;
     font-weight: bold;
     transition: all .3s ease;
@@ -1394,7 +1391,7 @@ p.guranteed_discount{
     padding-top: 16px;
 }
 
-.bg9 .desc a:hover {
+.screen9 .desc a:hover {
     text-decoration: none;
     opacity: 0.74;
 }
@@ -1403,18 +1400,18 @@ p.guranteed_discount{
 footer .copy span {
     text-decoration: underline
 }
-.bg9 h2 {
+.screen9 h2 {
     color: #000;
     font-size: 3rem;
     font-weight: 300;
     margin-top: 0;
     padding-left: 0
 }
-.bg9 h2 span {
+.screen9 h2 span {
     font-weight: 600
 }
-.bg9 form button,
-.bg9 form input {
+.screen9 form button,
+.screen9 form input {
     height: 45px;
     padding-left: 15px;
     padding-right: 15px;
@@ -1424,16 +1421,16 @@ footer .copy span {
     display: inline-block;
     margin-right: 10px
 }
-.bg9 img {
+.screen9 img {
     margin-top: -450px;
     -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1));
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1))
 }
 
-.bg9 form {
+.screen9 form {
     margin-top: 30px
 }
-.bg9 form input {
+.screen9 form input {
     border-radius: 5px;
     border: 2px solid #a5342e;
     background-color: transparent;
@@ -1443,29 +1440,29 @@ footer .copy span {
     color: #222;
     outline: none;
 }
-.bg9 form input:focus{
+.screen9 form input:focus{
 outline: none;
 border: 2px solid #a5342e;
 box-shadow: none;
 }
 
-.bg9 form::-webkit-input-placeholder {
+.screen9 form::-webkit-input-placeholder {
     color: rgba(0, 0, 0, .5)
 }
 
-.bg9 form::-moz-placeholder {
+.screen9 form::-moz-placeholder {
     color: rgba(0, 0, 0, .5)
 }
 
-.bg9 form:-moz-placeholder {
+.screen9 form:-moz-placeholder {
     color: rgba(0, 0, 0, .5)
 }
 
-.bg9 form:-ms-input-placeholder {
+.screen9 form:-ms-input-placeholder {
     color: rgba(0, 0, 0, .5)
 }
 
-.bg9 form button {
+.screen9 form button {
     border-radius: 5px;
     border: 2px solid #d14a43;
     color: #fff;
@@ -1474,13 +1471,13 @@ box-shadow: none;
     background-color: #d14a43;
 }
 
-.bg9 form button img {
+.screen9 form button img {
     margin-left: 10px;
     position: relative;
     top: -1px
 }
 
-.bg9 form button:hover {
+.screen9 form button:hover {
     background-color: #a5342e;
     border-color: #a5342e;
     -webkit-transition: .3s;
@@ -1631,20 +1628,18 @@ footer .about span {
 }
 
 @media (max-width:1200px) {
-    .bg1 header .logo {
-        height: 50px
-    }
-    .bg1 header p.right {
+
+    .screen1 header p.right {
         margin-left: 10px;
         font-size: 1rem
     }
-    .bg1 header .text-right nav,
-    .bg1 header .text-right nav ul li {
+    .screen1 header .text-right nav,
+    .screen1 header .text-right nav ul li {
         margin-right: 10px
     }
-    .bg5 .cont2 .block:nth-child(1),
-    .bg5 .cont2 .block:nth-child(2),
-    .bg5 .cont2 .block:nth-child(3) {
+    .screen5 .cont2 .block:nth-child(1),
+    .screen5 .cont2 .block:nth-child(2),
+    .screen5 .cont2 .block:nth-child(3) {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1653,49 +1648,49 @@ footer .about span {
         margin-right: -20px;
         vertical-align: top
     }
-    .bg1 header .text-right nav ul li a {
+    .screen1 header .text-right nav ul li a {
         font-size: 1.3rem;
         letter-spacing: -.5px
     }
-    .bg1 header .text-right nav ul li:after {
+    .screen1 header .text-right nav ul li:after {
         margin-left: 10px
     }
-    .bg1 header .text-right .phone a {
+    .screen1 header .text-right .phone a {
         font-size: 1.4rem
     }
-    .bg1 header .text-right .phone span {
+    .screen1 header .text-right .phone span {
         font-size: 1.2rem
     }
-    .bg1 .content h1 {
+    .screen1 .content h1 {
         font-size: 2.4rem
     }
-    .bg1 .content h1 span {
+    .screen1 .content h1 span {
         font-size: 3.2rem
     }
-    .bg1 .content .desc {
+    .screen1 .content .desc {
         font-size: 1.8rem
     }
     h2 {
         font-size: 2.6rem!important
     }
-    .bg5 .cont2 .block:nth-child(1) {
+    .screen5 .cont2 .block:nth-child(1) {
         margin-top: 0;
         background-image: url(../img/plach1.png);
         width: 404.8px;
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
     }
-    .bg5 .cont2 .block:nth-child(1) .name {
+    .screen5 .cont2 .block:nth-child(1) .name {
         margin-left: -30px;
         margin-bottom: 10px;
         margin-top: 20px
     }
-    .bg5 .cont2 .block:nth-child(1) .text {
+    .screen5 .cont2 .block:nth-child(1) .text {
         padding-left: 30px;
         width: 80%;
         font-size: 1.3rem
     }
-    .bg5 .cont2 .block:nth-child(2) {
+    .screen5 .cont2 .block:nth-child(2) {
         margin-top: 0;
         background-image: url(../img/plach2.png);
         width: 316px;
@@ -1703,19 +1698,19 @@ footer .about span {
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
     }
-    .bg5 .cont2 .block:nth-child(2) .name {
+    .screen5 .cont2 .block:nth-child(2) .name {
         margin-left: -35px;
         margin-bottom: 10px;
         margin-top: 20px
     }
-    .bg5 .cont2 .block:nth-child(2) .text {
+    .screen5 .cont2 .block:nth-child(2) .text {
         padding-left: 10px;
         position: relative;
         left: 7px;
         width: 70%;
         font-size: 1.3rem
     }
-    .bg5 .cont2 .block:nth-child(3) {
+    .screen5 .cont2 .block:nth-child(3) {
         margin-top: 0;
         background-image: url(../img/plach3.png);
         width: 283.2px;
@@ -1723,58 +1718,115 @@ footer .about span {
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
     }
-    .bg5 .cont2 .block:nth-child(3) .name {
+    .screen5 .cont2 .block:nth-child(3) .name {
         margin-left: -20px;
         margin-bottom: 10px;
         margin-top: 20px
     }
-    .bg5 .cont2 .block:nth-child(3) .text {
+    .screen5 .cont2 .block:nth-child(3) .text {
         font-size: 1.3rem;
         width: 70%
     }
-    .bg8 .block .name,
+    .screen8 .block .name,
     footer h3 {
         font-size: 1.8rem
     }
-    .bg7 .width {
+    .screen7 .width {
         width: 100%
     }
-    .bg8 h2 {
+    .screen8 h2 {
         margin-left: -320px
     }
-    .bg8 .block {
+    .screen8 .block {
         padding-left: 10px
     }
-    .bg8 .block .desc {
+    .screen8 .block .desc {
         left: 20px;
         padding-right: 30px;
         bottom: 0;
         margin-bottom: 20px
     }
-    .bg8 .block .text {
+    .screen8 .block .text {
         line-height: normal
     }
-    .bg9 img {
+    .screen9 img {
         margin-top: -350px
     }
 }
+@media (max-width:1024px) {
+.screen5 .cont1 h2 {
+    
+    font-size: 2.4rem!important;
+    margin-bottom: 18px;
+    font-size: 2.3rem;
+    font-weight: 300;
+    padding-left: 0;
+    margin-top: 40px;
+    width: 60%;
+}
 
+.screen5 .cont1 .desc {
+    font-size: 1.6rem;
+    padding-left: 0;
+    color: #fff;
+    font-weight: 300;
+}
+
+}
+
+
+@media (max-width:1024px) {
+.screen5 .cont1 h2 {
+    
+    font-size: 2.4rem!important;
+    margin-bottom: 18px;
+    font-size: 2.3rem;
+    font-weight: 300;
+    padding-left: 0;
+    margin-top: 40px;
+    width: 60%;
+}
+
+.screen5 .cont1 .desc {
+    font-size: 1.6rem;
+    padding-left: 0;
+    color: #fff;
+    font-weight: 300;
+}
+}
 @media (max-width:991px) {
-    .bg1 header .logo {
-        height: 50px
-    }
-    .bg1 header p.right {
+
+#carousel{
+    max-width: 70%;
+    margin: auto;
+}
+
+
+
+.screen5 .cont2 .line {
+    margin: 30px 95px 45px auto;
+}
+
+.screen5 .cont1 h2 {
+    
+    font-size: 1.5rem!important;
+}
+
+.screen5 .cont1 .desc {
+    font-size: 1rem;
+}
+    .screen1 header p.right {
         margin-left: 10px;
         font-size: 1rem
     }
-    .bg1 header .text-right nav {
+    .screen1 header .text-right nav {
         margin-right: 0
     }
-    .bg1 header .text-right nav ul li {
+    .screen1 header .text-right nav ul li {
         margin-right: 10px
     }
-    .bg5 .cont2 .block:nth-child(2),
-    .bg5 .cont2 .block:nth-child(3) {
+    .screen5 .cont2 .block:nth-child(2),
+    .screen5 .cont2 .block:nth-child(3) {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1783,29 +1835,29 @@ footer .about span {
         margin-right: -20px;
         vertical-align: top
     }
-    .bg1 header .text-right nav ul li a {
+    .screen1 header .text-right nav ul li a {
         font-size: 1.3rem;
         letter-spacing: -.5px
     }
-    .bg1 header .text-right nav ul li:after {
+    .screen1 header .text-right nav ul li:after {
         margin-left: 10px
     }
-    .bg1 header .text-right .phone a {
+    .screen1 header .text-right .phone a {
         font-size: 1.4rem
     }
-    .bg1 header .text-right .phone span {
+    .screen1 header .text-right .phone span {
         font-size: 1.2rem
     }
-    .bg1 .content h1 {
+    .screen1 .content h1 {
         font-size: 2.4rem
     }
-    .bg1 .content h1 span {
+    .screen1 .content h1 span {
         font-size: 3.2rem
     }
-    .bg1 .content .desc {
+    .screen1 .content .desc {
         font-size: 1.8rem
     }
-    .bg3 .gif1 {
+    .screen3 .gif1 {
         margin-left: -260px
     }
     h2 {
@@ -1814,10 +1866,10 @@ footer .about span {
     .desc {
         font-size: 1.8rem!important
     }
-    .bg5 .cont2 .text-right {
+    .screen5 .cont2 .text-right {
         text-align: left
     }
-    .bg5 .cont2 .block:nth-child(1) {
+    .screen5 .cont2 .block:nth-child(1) {
         margin-top: 0;
         background-image: url(../img/plach1.png);
         background-size: cover;
@@ -1831,39 +1883,39 @@ footer .about span {
         margin-left: -60px;
         vertical-align: top
     }
-    .bg5 .cont2 .block:nth-child(1) .name {
+    .screen5 .cont2 .block:nth-child(1) .name {
         margin-left: -30px;
         margin-bottom: 3px;
         margin-top: 10px;
         font-size: 1.7rem
     }
-    .bg5 .cont2 .block:nth-child(1) .text {
+    .screen5 .cont2 .block:nth-child(1) .text {
         padding-left: 30px;
         width: 80%;
         font-size: 1.3rem
     }
-    .bg5 .cont2 .block:nth-child(2) {
+    .screen5 .cont2 .block:nth-child(2) {
         margin-top: 0;
         background-image: url(../img/plach2.png);
-        width: 276.5px;
+        width: 312px;
         margin-left: -40px;
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
     }
-    .bg5 .cont2 .block:nth-child(2) .name {
+    .screen5 .cont2 .block:nth-child(2) .name {
         margin-left: -35px;
         margin-bottom: 3px;
         margin-top: 10px;
         font-size: 1.7rem
     }
-    .bg5 .cont2 .block:nth-child(2) .text {
+    .screen5 .cont2 .block:nth-child(2) .text {
         padding-left: 10px;
         position: relative;
         left: 7px;
         width: 70%;
         font-size: 1.3rem
     }
-    .bg5 .cont2 .block:nth-child(3) {
+    .screen5 .cont2 .block:nth-child(3) {
         margin-top: 0;
         background-image: url(../img/plach3.png);
         width: 283.2px;
@@ -1871,168 +1923,204 @@ footer .about span {
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
     }
-    .bg5 .cont2 .block:nth-child(3) .name {
+    .screen5 .cont2 .block:nth-child(3) .name {
         margin-left: -20px;
         margin-bottom: 3px;
         margin-top: 10px;
         font-size: 1.7rem
     }
-    .bg5 .cont2 .block:nth-child(3) .text {
+    .screen5 .cont2 .block:nth-child(3) .text {
         font-size: 1.3rem;
         width: 70%
     }
-    .bg5 .line {
+    .screen5 .line {
         width: 57%!important
     }
-    .bg5 .line2 {
+    .screen5 .line2 {
         width: 80%!important;
         margin-right: 40px!important
     }
-    .bg6 form input {
+    .screen6 form input {
         width: 220px;
         margin-bottom: 20px
     }
-    .bg7 .width {
+    .screen7 .width {
         text-align: center;
         width: 100%
     }
-    .bg7 .width .media {
+    .screen7 .width .media {
         width: 65%;
         display: block;
         margin-left: auto;
         margin-right: auto
     }
-    .bg9 h2 {
+    .screen9 h2 {
         margin-top: 80px
     }
-    .bg9 .desc a {
+    .screen9 .desc a {
         display: block;
         margin-bottom: 20px
     }
-    .bg9 img {
+    .screen9 img {
         margin-top: 0
     }
-    .bg9 button {
+    .screen9 button {
         width: 240px;
         margin-top: 20px;
         margin-left: 0!important
     }
-    .bg8 .bl3,
-    .bg8 .bl4,
-    .bg8 .bl5 {
+    .screen8 .bl3,
+    .screen8 .bl4,
+    .screen8 .bl5 {
         margin-top: 0
     }
     footer h3 {
         font-size: 1.8rem
     }
-    .bg8 .bl1,
-    .bg8 .bl2 {
+    .screen8 .bl1,
+    .screen8 .bl2 {
         margin-top: 0;
         margin-bottom: 30px
     }
-    .bg8 .bl3 {
+    .screen8 .bl3 {
         margin-bottom: 30px
     }
-    .bg8 .nm1,
-    .bg8 .text {
+    .screen8 .nm1,
+    .screen8 .text {
         color: #fff!important
     }
-    .bg8 .block {
+    .screen8 .block {
         padding-left: 0!important
     }
-    .bg8 .block .inner {
+    .screen8 .block .inner {
         height: 340px
     }
-    .bg8 .block img {
+    .screen8 .block img {
         -webkit-filter: brightness(.7);
         filter: brightness(.7)
     }
-    .bg8 .block .text {
+    .screen8 .block .text {
         left: 10px;
         bottom: -20px;
-        font-size: 1.4rem!important;
-        line-height: normal!important
+        font-size: 1.2rem!important;
+        line-height: normal!important;
+        font-weight: normal;
     }
-    .bg8 .block .text .name {
+    .screen8 .block .text .name {
         font-size: 1.6rem;
         letter-spacing: 0
     }
 }
 
+
+
 @media (max-width:767px) {
-    .bg4,
+    .screen4,
     .bgslider {
         display: none
     }
-    .bg1 header .logo {
-        /*height: 55px*/
-        max-width: 90px;
-        height: auto;
+
+      .screen1 header .logo {
+        height: auto;   
+        width: 100%;  
+        max-width: 126.5px;
+        margin-top: 26px;  
+        
     }
-    .bg3,
-    .bg5 {
+    header nav ul li * {
+    font-size: 1.4rem!important;
+    letter-spacing: -1px;
+}
+
+
+
+
+    .screen8 .block .white,
+     .screen8 .block .white .name {
+        max-width: 380px;
+        margin: auto;
+        margin-bottom: 30px;
+}
+
+.screen8 .block img.inner {
+    margin: auto;
+}
+
+
+
+
+     footer .how span, footer .soc span {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+
+    .screen3,
+    .screen5 {
         padding-top: 40px;
         padding-bottom: 40px;
         height: 100%
     }
-    .bg1 header p.right {
+    .screen1 header p.right {
         margin-left: 10px;
         font-size: 1.2rem
     }
 
-    .bg1 header {
+    .screen1 header {
     height: 90px;
 }
 
 
-.bg8 .block .inner {
+.screen8 .block .inner {
     height: auto;
 }
 
 
-    .bg1 header .text-right nav {
+    .screen1 header .text-right nav {
         margin-right: 0
     }
-    .bg1 header .text-right nav ul li {
+    .screen1 header .text-right nav ul li {
         margin-right: 10px
     }
-    .bg1 header .text-right nav ul li a {
+    .screen1 header .text-right nav ul li a {
         font-size: 1.3rem;
         letter-spacing: -.5px
     }
-    .bg1 header .text-right nav ul li:after {
+    .screen1 header .text-right nav ul li:after {
         margin-left: 10px
     }
-    .bg1 header .text-right .phone a {
+    .screen1 header .text-right .phone a {
         font-size: 1.8rem
     }
-    .bg1 header .text-right .phone span {
+    .screen1 header .text-right .phone span {
         font-size: 1.4rem
     }
-    .bg1 .content {
+    .screen1 .content {
         padding-bottom: 40px;
         background-position: left top!important
     }
-    .bg1 .content h1 {
+    .screen1 .content h1 {
         margin-top: 35px;
         font-size: 2rem;
         line-height: normal
     }
-    .bg1 .content h1 span {
+    .screen1 .content h1 span {
         font-size: 2.4rem
     }
-    .bg1 .content .desc {
+    .screen1 .content .desc {
         font-size: 1.6rem
     }
 
-    .bg3_half {
+    .screen3_half {
     background-image: url(../img/bg2.png);
 }
 
-    .bg3 .gif1 {
+    .screen3 .gif1 {
         margin-left: -260px
     }
-    .bg3 ul {
+    .screen3 ul {
         padding-left: 10px
     }
     h2 {
@@ -2041,12 +2129,12 @@ footer .about span {
     .desc {
         font-size: 1.6rem!important
     }
-    .bg5 {
+    .screen5 {
         background-position: left
     }
-    .bg5 .cont2 .block:nth-child(1),
-    .bg5 .cont2 .block:nth-child(2),
-    .bg5 .cont2 .block:nth-child(3) {
+    .screen5 .cont2 .block:nth-child(1),
+    .screen5 .cont2 .block:nth-child(2),
+    .screen5 .cont2 .block:nth-child(3) {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -2057,162 +2145,162 @@ footer .about span {
         margin-left: 0;
         width: 100%
     }
-    .bg5 .cont1 h2 {
+    .screen5 .cont1 h2 {
         margin-top: 0;
         width: 100%
     }
-    .bg5 .cont1 .desc {
+    .screen5 .cont1 .desc {
         width: 100%
     }
-    .bg5 .cont2 .text-right {
+    .screen5 .cont2 .text-right {
         text-align: left
     }
-    .bg7 .width,
-    .bg9,
+    .screen7 .width,
+    .screen9,
     footer {
         text-align: center
     }
-    .bg5 .cont2 .block {
+    .screen5 .cont2 .block {
         padding: 15px;
         margin-bottom: 20px;
         border-radius: 10px
     }
-    .bg6,
-    .bg7,
-    .bg8,
+    .screen6,
+    .screen7,
+    .screen8,
     footer {
         padding-top: 40px
     }
-    .bg5 .cont2 .block:nth-child(1) {
+    .screen5 .cont2 .block:nth-child(1) {
         margin-top: 0;
         background-image: url(../img/plach1.png);
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3))
     }
-    .bg5 .cont2 .block:nth-child(1) .name {
+    .screen5 .cont2 .block:nth-child(1) .name {
         margin-left: 0;
         margin-bottom: 3px;
         margin-top: 10px;
         font-size: 1.7rem
     }
-    .bg5 .cont2 .block:nth-child(1) .text {
+    .screen5 .cont2 .block:nth-child(1) .text {
         padding-left: 0;
         width: 100%;
         font-size: 1.3rem
     }
-    .bg5 .cont2 .block:nth-child(2) {
+    .screen5 .cont2 .block:nth-child(2) {
         margin-top: 0;
         background-image: url(../img/plach2.png);
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         margin-right: 0
     }
-    .bg5 .cont2 .block:nth-child(2) .name {
+    .screen5 .cont2 .block:nth-child(2) .name {
         margin-left: 0;
         margin-bottom: 3px;
         margin-top: 10px;
         font-size: 1.7rem
     }
-    .bg5 .cont2 .block:nth-child(2) .text {
+    .screen5 .cont2 .block:nth-child(2) .text {
         padding-left: 10px;
         position: relative;
         left: 0;
         width: 100%;
         font-size: 1.3rem
     }
-    .bg5 .cont2 .block:nth-child(3) {
+    .screen5 .cont2 .block:nth-child(3) {
         margin-top: 0;
         background-image: url(../img/plach3.png);
         -webkit-filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, .3));
         margin-right: -20px
     }
-    .bg6,
-    .bg7,
-    .bg8,
-    .bg9 {
+    .screen6,
+    .screen7,
+    .screen8,
+    .screen9 {
         padding-bottom: 40px;
         height: 100%
     }
-    .bg5 .cont2 .block:nth-child(3) .name {
+    .screen5 .cont2 .block:nth-child(3) .name {
         margin-left: 0;
         margin-bottom: 3px;
         margin-top: 10px;
         font-size: 1.7rem
     }
-    .bg6 form input,
-    .bg9 .desc a {
+    .screen6 form input,
+    .screen9 .desc a {
         margin-bottom: 20px
     }
-    .bg5 .cont2 .block:nth-child(3) .text {
+    .screen5 .cont2 .block:nth-child(3) .text {
         font-size: 1.3rem;
         width: 100%
     }
-    .bg5 .line {
+    .screen5 .line {
         width: 80%!important;
         margin-top: 30px!important
     }
-    .bg5 .line2 {
+    .screen5 .line2 {
         display: none;
         width: 80%!important;
         margin-right: 40px!important
     }
-    .bg6 form button,
-    .bg6 form input {
+    .screen6 form button,
+    .screen6 form input {
         margin-left: auto!important;
         margin-right: auto!important;
         display: block!important;
         max-width: 300px!important;
         width: 100%
     }
-    .bg6 form button {
+    .screen6 form button {
         font-size: 1.4rem!important;
         padding-left: 5px!important;
         padding-right: 5px!important
     }
-    .bg7 .width .media,
-    .bg7 .width .media .media-left img,
-    .bg9 img {
+    .screen7 .width .media,
+    .screen7 .width .media .media-left img,
+    .screen9 img {
         margin-left: auto;
         margin-right: auto
     }
-    .bg7 .width {
+    .screen7 .width {
         width: 100%
     }
-    .bg7 .width .media {
+    .screen7 .width .media {
         width: 100%;
         display: block
     }
-    .bg7 .width .media .media-left {
+    .screen7 .width .media .media-left {
         width: 100%;
         display: block;
         text-align: center
     }
-    .bg7 .width .media .media-left .out {
+    .screen7 .width .media .media-left .out {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px
     }
-    .bg7 .width .media .media-left img {
+    .screen7 .width .media .media-left img {
         display: block
     }
-    .bg9 h2 {
+    .screen9 h2 {
         margin-top: 30px
     }
-    .bg9 .desc a {
+    .screen9 .desc a {
         display: block
     }
-    .bg8 .block,
-    .bg8 h2 {
+    .screen8 .block,
+    .screen8 h2 {
         margin-bottom: 30px
     }
-    .bg9 img {
+    .screen9 img {
         margin-top: 0;
         display: block;
         max-height: 500px
     }
-    .bg9 button {
+    .screen9 button {
         width: 240px;
         margin-top: 20px;
         margin-left: 0!important
@@ -2232,23 +2320,23 @@ footer .about span {
         text-align: center;
     }
 
-    .bg8 {
+    .screen8 {
         overflow: hidden
     }
-    .bg8 h2 {
+    .screen8 h2 {
         margin-left: 0
     }
-    .bg8 .bl2,
-    .bg8 .bl3,
-    .bg8 .bl4,
-    .bg8 .bl5 {
+    .screen8 .bl2,
+    .screen8 .bl3,
+    .screen8 .bl4,
+    .screen8 .bl5 {
         margin-top: 0
     }
-    .bg8 .desc,
-    .bg8 .nm1 {
+    .screen8 .desc,
+    .screen8 .nm1 {
         color: #fff!important
     }
-    .bg8 .block img {
+    .screen8 .block img {
         -webkit-filter: brightness(.7);
         filter: brightness(.7);
         right: 0;
@@ -2256,7 +2344,7 @@ footer .about span {
         top: 0;
         position: relative
     }
-    .bg8 .block .text {
+    .screen8 .block .text {
         font-size: 1.5rem!important;
         right: 0;
         left: 0;
@@ -2266,7 +2354,7 @@ footer .about span {
         bottom: 0!important;
         line-height: normal!important
     }
-    .bg8 .block .text .name {
+    .screen8 .block .text .name {
         font-size: 1.8rem;
         letter-spacing: 0;
         margin-left: 30px;
@@ -2274,6 +2362,20 @@ footer .about span {
         left: 0
     }
 }
+
+@media (max-width:767px) and(orientation: portrait) {
+#carousel{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.screen7 .block .media .media-left img {
+    max-width: 50px;
+}
+
+}
+
 
 #header_slider {
     position: fixed;
@@ -2285,27 +2387,24 @@ footer .about span {
     display: none
 }
 
-#header_slider .abc71,
+#header_slider .buy,
 #header_slider .rel {
     position: relative;
     text-align: right
 }
 
-#header_slider .abc71 {
+#header_slider .buy {
     display: none;
     width: auto;
     height: 40px;
     right: 0;
     white-space: nowrap;
-    margin-left: auto;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
-    background-color: #f7f7f7;
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .2);
+    margin-left: auto;    
+    background-color: #fff;
     padding: 10px
 }
 
-#header_slider .abc71 .name {
+#header_slider .buy .name {
     font-size: 1.4rem;
     text-align: right;
     font-weight: 300
@@ -2326,8 +2425,8 @@ input[hidden] {
     color: #fff
 }
 
-.bg9 .minconf,
-.bg9 .minconf a,
+.screen9 .minconf,
+.screen9 .minconf a,
 .popup1 .minconf,
 .popup1 .minconf a,
 .popup2 .minconf,
@@ -2372,6 +2471,7 @@ input[hidden] {
     border-radius: 6px;
     border: 1px solid #fff;
     margin-left: 1rem;
+    font-size: 2.5rem;
     border-radius: 3px;
     transition: all .3s ease-out;
     cursor: pointer;
@@ -2381,6 +2481,7 @@ input[hidden] {
     background-color: #fa932e;
     padding: 8px 14px;
     border-radius: 3px;
+    font-size: 2.5rem;
     transition: all .3s ease-out;
     cursor: pointer;
       border-radius: 6px;
@@ -2410,7 +2511,8 @@ i.fa.fa-mobile.header_phone{
     text-decoration: none;
 }
 
-.popup1 input:focus{
+.popup1 input:focus,
+.popup2 input:focus{
   border: 1px solid #ccc;
   outline: none;
   box-shadow: none;  
