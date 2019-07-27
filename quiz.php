@@ -1,7 +1,8 @@
 <?php
 
 {
-   $mail="zayavka.biga@ya.ru";
+   // $mail="zayavka.biga@ya.ru";
+    $mail="repvol2015@gmail.com";
   // e-mail куда уйдет письмо
 
   $title="Заявка с сайта бигамотор/тнвд"; // заголовок(тема) письма

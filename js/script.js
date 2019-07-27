@@ -176,12 +176,5 @@ $('.sup_form').submit(function() {
 	    	}
 	    }
 	});
-	// $('.bg5 .fa-angle-left').click(function() {
-	//   owl2.trigger('prev.owl.carousel');
-	// });
-	// $('.bg5 .fa-angle-right').click(function() {
-	//   owl2.trigger('next.owl.carousel');
-	// });
-
 
 });

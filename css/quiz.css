@@ -1827,3 +1827,45 @@ i.fa.fa-mobile.header_phone{
     opacity: 0.6;
     text-decoration: none;
 }
+
+
+.tooltips_block{
+    position: relative;
+    display: block;
+    max-width: 400px;
+
+}
+
+
+.tooltips_block_inline{
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+}
+
+
+@media (max-width:767px) {
+.tooltips_block_inline{
+    display: block;
+
+}
+}
+
+
+label.tooltip {
+  display: none;
+  border: 1px solid #d14a43;
+  background: #d14a43;
+  padding: 10px; 
+  color: #fff;
+  font-style: normal;
+  font-size: 14px;
+  position: absolute;
+  top: -50px;
+  right: -20px;
+}
+input:focus + label.tooltip {
+  display: block;
+  
+    z-index: 222222;
+}
